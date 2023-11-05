@@ -50,4 +50,7 @@ Global
 	GlobalSection(ddbf523f-7eb6-4887-bd51-85a714ff87eb) = preSolution
 		AvailablePlatforms = Win64
 	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12E81FBF-03C7-4268-A671-AFAD7E827E86}
+	EndGlobalSection
 EndGlobal
