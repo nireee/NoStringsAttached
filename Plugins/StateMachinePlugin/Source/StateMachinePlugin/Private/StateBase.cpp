@@ -3,6 +3,13 @@
 
 #include "StateBase.h"
 
+
+void UStateBase::InitializeState(AActor* i_ownerObject)
+{
+	//ownerObject = i_ownerObject;
+}
+
+
 void UStateBase::EnterStateEvent_CPP()
 {
 
@@ -19,7 +26,6 @@ void UStateBase::ExitStateEvent_CPP()
 {
 
 }
-
 
 void UStateBase::EnterState()
 {

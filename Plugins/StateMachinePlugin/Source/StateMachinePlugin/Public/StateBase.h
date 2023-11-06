@@ -21,6 +21,8 @@ class STATEMACHINEPLUGIN_API UStateBase : public UObject
 
 public:
 
+	void InitializeState(AActor* i_ownerObject);
+
 	void EnterState();
 
 	void TickState();
@@ -48,6 +50,9 @@ public:
 
 public:
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "State Machine")
-		bool canTickState = true;
+	bool canTickState = true;
+
+	//UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "State Machine")
+	//AActor* ownerObject = nullptr;
 
 };

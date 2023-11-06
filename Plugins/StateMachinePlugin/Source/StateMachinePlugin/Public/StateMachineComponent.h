@@ -71,4 +71,6 @@ private:
 	TMap<FString, UStateBase*> stateMap;
 
 	UStateBase* currentState = nullptr;
+
+	//AActor* ownerObject = nullptr;
 };
