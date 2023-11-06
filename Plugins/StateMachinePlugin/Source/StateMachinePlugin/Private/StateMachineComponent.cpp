@@ -89,14 +89,14 @@ FString UStateMachineComponent::GetCurrentStateName()
 void UStateMachineComponent::InitializeStateMachine()
 {
 	// Store the reference of the owner game object
-	//ownerObject = GetOwner();
+	ownerObject = GetOwner();
 
 	// Load all states into state machine
 	for (auto iter = stateConfigs.CreateConstIterator(); iter; ++iter)
 	{
 		UStateBase* state = NewObject<UStateBase>(this, iter->Value);
 		
-		//state->InitializeState(ownerObject);
+		state->InitializeState(ownerObject);
 		
 		stateMap.Add(iter->Key, state);
 	}

@@ -21,6 +21,9 @@ class STATEMACHINEPLUGIN_API UStateBase : public UObject
 
 public:
 
+	// State Logic
+	//------------------------------------
+
 	void InitializeState(AActor* i_ownerObject);
 
 	void EnterState();
@@ -28,6 +31,9 @@ public:
 	void TickState();
 
 	void ExitState();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "StateBase")
+	void InitializeStateEvent_Blueprint();
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "StateBase")
 	void EnterStateEvent_Blueprint();
@@ -38,11 +44,19 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "StateBase")
 	void ExitStateEvent_Blueprint();
 
+	virtual void InitializeStateEvent_CPP();
+	
 	virtual void EnterStateEvent_CPP();
 
 	virtual void TickStateEvent_CPP();
 
 	virtual void ExitStateEvent_CPP();
+
+	// Property Getter
+	//------------------------------------
+
+	UFUNCTION(BlueprintCallable, Category = "StateMachine")
+	AActor* GetOwnerObject();
 
 
 	// Data 
@@ -52,7 +66,7 @@ public:
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "State Machine")
 	bool canTickState = true;
 
-	//UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "State Machine")
-	//AActor* ownerObject = nullptr;
+private:
+	AActor* ownerObject = nullptr;
 
 };

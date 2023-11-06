@@ -6,7 +6,37 @@
 
 void UStateBase::InitializeState(AActor* i_ownerObject)
 {
-	//ownerObject = i_ownerObject;
+	ownerObject = i_ownerObject;
+
+	InitializeStateEvent_Blueprint();
+	InitializeStateEvent_CPP();
+}
+
+
+void UStateBase::EnterState()
+{
+	EnterStateEvent_Blueprint();
+	EnterStateEvent_CPP();
+}
+
+
+void UStateBase::TickState()
+{
+	TickStateEvent_Blueprint();
+	TickStateEvent_CPP();
+}
+
+
+void UStateBase::ExitState()
+{
+	ExitStateEvent_Blueprint();
+	ExitStateEvent_CPP();
+}
+
+
+void UStateBase::InitializeStateEvent_CPP()
+{
+
 }
 
 
@@ -27,22 +57,8 @@ void UStateBase::ExitStateEvent_CPP()
 
 }
 
-void UStateBase::EnterState()
+
+AActor* UStateBase::GetOwnerObject()
 {
-	EnterStateEvent_Blueprint();
-	EnterStateEvent_CPP();
-}
-
-
-void UStateBase::TickState()
-{
-	TickStateEvent_Blueprint();
-	TickStateEvent_CPP();
-}
-
-
-void UStateBase::ExitState()
-{
-	ExitStateEvent_Blueprint();
-	ExitStateEvent_CPP();
+	return this->ownerObject;
 }

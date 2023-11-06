@@ -72,5 +72,5 @@ private:
 
 	UStateBase* currentState = nullptr;
 
-	//AActor* ownerObject = nullptr;
+	AActor* ownerObject = nullptr;
 };
