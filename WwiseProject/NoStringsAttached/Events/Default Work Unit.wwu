@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A35E6DB4-63BE-49DA-AFC7-594CF0C301F7}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A35E6DB4-63BE-49DA-AFC7-594CF0C301F7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A35E6DB4-63BE-49DA-AFC7-594CF0C301F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Character" ID="{6AAF4457-341D-4BEB-A0FE-C7A1A70872F2}" ShortID="876457150">
+					<ChildrenList>
+						<Folder Name="Pavo" ID="{E18EE1D0-D67B-49CC-9CE3-D4B794F6329E}" ShortID="732686683">
+							<ChildrenList>
+								<Event Name="char_pav_fs" ID="{4CE586AB-2726-44C7-BF96-950733CE3A26}"/>
+								<Event Name="char_pav_jump" ID="{DE2E6BFB-3403-48BE-A008-819E4E4C09A7}"/>
+								<Event Name="char_pav_land" ID="{590AC1AC-F10E-46B5-9BD1-CC4E63F1D589}"/>
+								<Event Name="char_pav_zipline" ID="{578ECF62-A4C2-42E5-8D0D-52CD562B5327}"/>
+								<Event Name="char_pav_swing_forward" ID="{83F71D15-A00E-4BFB-880A-24FD2F147827}"/>
+								<Event Name="char_pav_swing_backward" ID="{2F35F8D9-5283-4A81-917B-DB5BD7C5425C}"/>
+								<Event Name="char_pav_climb" ID="{65FAEF5A-2097-43CB-B3DF-8417489091B6}"/>
+								<Event Name="char_pav_raise_arm_left" ID="{DF9848E0-D3A1-4434-8555-3237CE6979C4}"/>
+								<Event Name="char_pav_raise_arm_right" ID="{93D420D7-2A2C-4B92-B7C5-1FC7E2890830}"/>
+								<Event Name="char_pav_fs_tightrope" ID="{7B9FFBA4-4D1C-46A1-8029-B24E8F7B4E71}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Puppet Master" ID="{08749590-C510-43CF-801F-6A031779753F}" ShortID="76141182">
+							<ChildrenList>
+								<Event Name="char_pm_fs" ID="{7AA1FEC4-AB3A-4359-9B2A-926A963673AF}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{DEEE6B95-7ACE-437E-86E5-B5F3D14349F1}" ShortID="96067653">
+					<ChildrenList>
+						<Folder Name="Emitter" ID="{DD618C05-837E-4A4F-9521-0D01821B6A9A}" ShortID="936770782"/>
+						<Folder Name="Event" ID="{4737F699-C2D2-4572-AA04-A7112120F4E8}" ShortID="610825736"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{3BABA21B-D5EB-420C-95D6-B014C9D380D5}" ShortID="681785654"/>
+				<Folder Name="SFX" ID="{91364B9B-B8AD-4F71-9E19-500D59622424}" ShortID="60857125">
+					<ChildrenList>
+						<Folder Name="Box" ID="{4C664855-3EB8-40D8-B129-C08D7F4A365A}" ShortID="233473602">
+							<ChildrenList>
+								<Event Name="sfx_box_push" ID="{FFAD90CB-0A78-4966-A5CB-8F750EB416EB}"/>
+								<Event Name="sfx_box_pull" ID="{B494FF4E-4D34-4C54-80BC-CC39D1016A61}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Door" ID="{AA2B9E7C-CFA8-4662-A669-4AF01545C7CD}" ShortID="381797700">
+							<ChildrenList>
+								<Event Name="sfx_door_open" ID="{99CFBA2F-33A5-4FF5-B3E6-4F52EDFB5DF2}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Floor" ID="{2F1E3EB3-23F4-4EB3-81F8-6A383C5C4C4A}" ShortID="819601526">
+							<ChildrenList>
+								<Event Name="sfx_floor_break" ID="{AA316F07-7AE2-4DD2-9B4B-551959025890}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Cinematics" ID="{0B492932-CFED-4D44-BEAF-1D0D262D7CE7}" ShortID="558226511"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
