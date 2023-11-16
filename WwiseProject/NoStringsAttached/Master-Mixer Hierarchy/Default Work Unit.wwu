@@ -9,6 +9,40 @@
 							<ObjectRef Name="System" ID="{794932AA-2A4E-4AAB-9478-615901F8C2A6}" WorkUnitID="{78B54FA9-64BA-4A5D-B498-8496A6B3AC31}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="PlayerMaster" ID="{EDB4C5F9-609B-4926-BB62-67BA02FD2667}">
+							<ChildrenList>
+								<Bus Name="PlayerMovement" ID="{1F33C29D-90B3-4BE9-AE4B-8479ABF510CD}">
+									<ChildrenList>
+										<Bus Name="PlayerFootsteps" ID="{82A82D18-85EC-44C6-A57E-6A7B8BAE0D37}"/>
+										<Bus Name="PlayerWood" ID="{BE3C122C-5653-4B63-89A2-A04341DB74F2}"/>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="PlayerMechanics" ID="{77359A88-F253-41A6-B20B-523167FEA722}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="NPCMaster" ID="{CCBC92FD-9358-4A96-9570-28F01BE44BAB}"/>
+						<Bus Name="AmbientMaster" ID="{4D2D6455-12DE-4A04-9896-7CA25B52F576}">
+							<ChildrenList>
+								<Bus Name="AmbientBeds" ID="{CF015A9B-CA74-4733-9506-91FF912E3CF2}">
+									<ChildrenList>
+										<Bus Name="2DAmbientBeds" ID="{2035CEF8-DCE9-4BEE-BA94-F945FDDAA45F}"/>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="3DAmbience" ID="{7DA4537C-9558-4B16-9267-1DC9100B2A3F}"/>
+								<Bus Name="2DAmbience" ID="{EF58ABF1-5932-43E1-BD1D-23188E829651}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="CinematicsMaster" ID="{8457181A-28A5-4D5D-84A4-3ADD21B41F3B}"/>
+						<AuxBus Name="Reverbs" ID="{6F208949-DFC4-4B37-8ECD-781C576593DE}">
+							<ChildrenList>
+								<AuxBus Name="LargeTent" ID="{65A6FC90-3D07-4EE6-92C1-279D57263A96}"/>
+								<AuxBus Name="SmallTent" ID="{3F66FA3A-E434-4684-9DB9-AC12C3FCA995}"/>
+								<AuxBus Name="Tunnel" ID="{C1FAB06B-5D3A-4E3B-A517-98B12AD146C2}"/>
+							</ChildrenList>
+						</AuxBus>
+						<Bus Name="SFXMaster" ID="{43EA0941-CCF2-45B8-A1B8-B6DBAE50821C}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
