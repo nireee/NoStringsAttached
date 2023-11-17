@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5126EE47-53D5-46F8-8C5C-9F837973CAC0}" SchemaVersion="110" RootDocumentID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}" ParentDocumentID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}">
+	<AudioObjects>
+		<WorkUnit Name="PavoCloth" ID="{5126EE47-53D5-46F8-8C5C-9F837973CAC0}" OwnerID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="char_pav_cloth_wood" ID="{DE3F5391-6AEB-47B7-BB54-9275E28A7EDC}" ShortID="160077535">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

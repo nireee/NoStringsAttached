@@ -31,6 +31,13 @@
 						<State Name="BigTent" ID="{1360D1AD-D62E-4261-B977-E68EF53FBE05}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="MusicState" ID="{D3F1F299-3F23-4921-86A9-26D46683D198}">
+					<ChildrenList>
+						<State Name="None" ID="{5F276060-89E3-48C3-9F0C-EAFE898E41DC}"/>
+						<State Name="Ambient" ID="{B3A46E27-D2A7-44AD-93D7-56C19F10389F}"/>
+						<State Name="Stealth" ID="{21789D5B-C3DF-469E-B1F2-550CD897D919}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

@@ -32,6 +32,8 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<Folder Name="Emitters" ID="{48BC34D5-9729-4B70-9829-88006E3F2104}" ShortID="818224747"/>
+				<Folder Name="Events" ID="{2840E68A-8963-4600-B22A-D30230BFAAED}" ShortID="929303945"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
