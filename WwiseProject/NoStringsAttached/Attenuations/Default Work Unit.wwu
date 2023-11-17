@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C5C1D5A6-4B03-4DC8-B507-508BCBE46CD8}" SchemaVersion="110">
+	<Attenuations>
+		<WorkUnit Name="Default Work Unit" ID="{C5C1D5A6-4B03-4DC8-B507-508BCBE46CD8}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="att_Generics" ID="{8794D586-85EE-4D19-93E9-9D0D1D8898A4}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerMovement" ID="{B5AC8774-0EEB-4E83-AFA6-5DC0E60C6DCA}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Attenuations>
+</WwiseDocument>

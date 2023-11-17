@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E4A07BB0-E2CC-4B98-A8B5-2272F03E1325}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="AmbienceSwitches" ID="{E4A07BB0-E2CC-4B98-A8B5-2272F03E1325}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="AmbienceType" ID="{B32C1248-6248-43FD-B71A-3671E39CA56E}">
+					<ChildrenList>
+						<Switch Name="Outdoor" ID="{1553ED32-9EDA-4C61-9855-826621EBAE72}"/>
+						<Switch Name="AbandonedTent" ID="{1366B351-35BF-42DD-B5C1-43FF1C3B4A6C}"/>
+						<Switch Name="BigTent" ID="{3CA0D533-770E-4FA3-A9F2-3586E1E85594}"/>
+						<Switch Name="Tunnel" ID="{52533943-5E8A-4038-9AE2-B119D41648AD}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

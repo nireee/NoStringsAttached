@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C7352BC-75EE-41DE-95E4-1114771136B7}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Player" ID="{7C7352BC-75EE-41DE-95E4-1114771136B7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Pavo" ID="{3559BF60-D011-4DB0-B20A-DD90E4D07459}" ShortID="59597947">
+					<ChildrenList>
+						<Event Name="Play_char_pav_fs" ID="{4CE586AB-2726-44C7-BF96-950733CE3A26}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{EE555EF3-C318-4268-B12E-491461ACC1C8}" ShortID="701502655">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_fs_MaterialSwitch" ID="{9096C06A-0272-401A-870D-4B71628380B3}" WorkUnitID="{DC46BF3D-AE78-4282-9279-B91F8E3D7256}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

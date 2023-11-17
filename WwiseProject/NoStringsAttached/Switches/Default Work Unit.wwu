@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7E7455AF-4C6A-4309-AF95-0B35706BC547}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{7E7455AF-4C6A-4309-AF95-0B35706BC547}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="GroundMaterial" ID="{DFFD9305-1DBC-4EC7-9BB6-81B52C0204AE}">
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{CC41DBD3-7A89-42AC-9034-EDF1739AB41C}"/>
+						<Switch Name="Grass" ID="{A45F2FD8-C45B-408D-A7B2-D438D9E33847}"/>
+						<Switch Name="Water" ID="{8D200B28-C78C-4BE1-AAC3-A8C491EB7F0E}"/>
+						<Switch Name="Wood" ID="{75B68E50-C473-402E-9743-14A0E6BFE9AC}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="PlayerSpeedSwitch" ID="{C388DAD0-19AF-4DD8-91C5-58865AFFD65E}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Walk" ID="{49D86BB7-556D-4559-9D9B-5EE8E0237A53}"/>
+						<Switch Name="Sneak" ID="{8C4B95D1-A6FD-4CF0-84A3-287DC177DD8F}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_PlayerSpeed" ID="{08B2FABF-181E-44A8-8857-624FB8563E39}"/>
+						<Curve Name="" ID="{18052430-F2C1-476C-B32A-6709F4B215C4}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.5</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="PlayerHealth" ID="{49D81390-89C5-4373-B9BE-4D6E90C18085}">
+					<ChildrenList>
+						<Switch Name="Alive" ID="{054C53E7-9F7C-44E3-ACF2-7DFBA25A7E76}"/>
+						<Switch Name="Dead" ID="{71463FEB-EA8E-4930-A56E-9F3101BB5E7F}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
