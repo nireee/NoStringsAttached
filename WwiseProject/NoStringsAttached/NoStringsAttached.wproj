@@ -21,12 +21,13 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Switch">GeneratedSoundBanks\Switch\</Value>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Switch">GeneratedSoundBanks\Switch</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjE2MDUwIiBtYXNrPSJOU1FIMzM3OCIgZW5jPSIwIj48bGlj ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjIiIHBsYXRmb3Jtcz0iNCwx MCwxNSIgZXhwaXJlcz0iMjAyNC0xMS0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBu YW1lPSJNYWludGVuYW5jZSIgdHlwZT0iMiIgcGxhdGZvcm1zPSI0LDEwIiBleHBp cmVzPSIyMDI0LTExLTAxIiAgLz48bGljZW5zZSBpZD0iNzAiIG5hbWU9IkluZGll IExpY2Vuc2UiIHR5cGU9IjIiIHBsYXRmb3Jtcz0iMTAsMTUiIGV4cGlyZXM9IjIw MjQtMTEtMDEiICAvPjwvcHJvamVjdD4=|1ezg/GaQ8SuTKAA3CEs+HFtjw71ONtP ML+lhmHnBQK1whYKkucjejp1cl/RhkTMXDCj7RXYS0PPjFbbkc+aypPEAWLF1XZZ PbKjoYvbcyH/eSi0kVxaelvtNfTRcdFUPc/xnBp0Fdr5Q16kG4vJNIJcPEqUkx7L k93qayk9RuvuTjakwipkWUfS22ZEXtSZY/78Tfi3zmFSwTMXLODWPI6RPqFUvO4X Ca3VDWsxT5NCshYBPCLIq/5lGhv0y+FpN+JnvRdzsNPLs2lFMkjU9kB6BfzRnAIm W8uWzKKIE+lAVZEXsD1+mpZK/1Eos0I3npC/Ayyx8xBUw2bLt+jNJgg== "/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankAllowExceedingSB" Type="bool" Value="True"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Switch">GeneratedSoundBanks\Switch\</Value>
@@ -59,6 +60,10 @@
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2022.1|Build=8316|VersionName=v2022.1.8|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioFileSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
