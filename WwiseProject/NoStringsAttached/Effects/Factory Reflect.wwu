@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}" SchemaVersion="119">
 	<Effects>
 		<WorkUnit Name="Factory Reflect" ID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}" PersistMode="Standalone">
 			<ChildrenList>

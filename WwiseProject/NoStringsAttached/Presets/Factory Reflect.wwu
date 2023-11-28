@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C4AA5FFA-27C8-411F-8EA9-8D5494E6DE5C}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{C4AA5FFA-27C8-411F-8EA9-8D5494E6DE5C}" SchemaVersion="119">
 	<Presets>
 		<WorkUnit Name="Factory Reflect" ID="{C4AA5FFA-27C8-411F-8EA9-8D5494E6DE5C}" PersistMode="Standalone">
 			<ChildrenList>
@@ -14,11 +14,21 @@
 						<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Effect0" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
-							<ObjectRef Name="Reflect" ID="{37779A87-4754-4420-8175-3236FA46AA12}" WorkUnitID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}"/>
-						</Reference>
-					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{FAFA177F-AA05-42D8-9A01-1147693B4773}">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+												<ObjectRef Name="Reflect" ID="{37779A87-4754-4420-8175-3236FA46AA12}" WorkUnitID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</AuxBus>
 				<AuxBus Name="Simplified Early Reflection Auxiliary Bus" ID="{EDBF17B0-A50E-440F-BB90-0B5E15461234}">
 					<PropertyList>
@@ -31,11 +41,21 @@
 						<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Effect0" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
-							<ObjectRef Name="Reflect_Simplified" ID="{26D1B778-1690-400C-9DBA-3B2CDEE9B3AE}" WorkUnitID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}"/>
-						</Reference>
-					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{4E369420-0938-41A9-BFFE-E8108201B93D}">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+												<ObjectRef Name="Reflect_Simplified" ID="{26D1B778-1690-400C-9DBA-3B2CDEE9B3AE}" WorkUnitID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</AuxBus>
 			</ChildrenList>
 		</WorkUnit>
