@@ -1,0 +1,115 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "Type": "User",
+    "GUID": "{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}",
+    "Language": "SFX",
+    "Hash": "{419928E2-77FD-4742-A3CC-E48849B6DE0E}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "Media": [
+     {
+      "Id": "407628506",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TestFiles\\sfx_test_beep.wav",
+      "CachePath": "SFX/TestFiles/sfx_test_beep_10C4C929.wem"
+     },
+     {
+      "Id": "734743432",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TestFiles\\sfx_test_beep.wav",
+      "CachePath": "SFX/TestFiles/sfx_test_beep_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1955951874",
+      "Name": "Play_TestBeep",
+      "ObjectPath": "\\Events\\TestEvents\\Play_TestBeep",
+      "GUID": "{5D9EF484-D0EA-4CEC-99C7-B49A864C4C76}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20864584",
+      "DurationMax": "0.20864584",
+      "MediaRefs": [
+       {
+        "Id": "407628506"
+       }
+      ]
+     },
+     {
+      "Id": "1681067324",
+      "Name": "Play_TestBeep_3D",
+      "ObjectPath": "\\Events\\TestEvents\\Play_TestBeep_3D",
+      "GUID": "{ABAB4C37-A367-49E7-AC0C-315EDB1FB097}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20864584",
+      "DurationMax": "0.20864584",
+      "MediaRefs": [
+       {
+        "Id": "407628506"
+       }
+      ]
+     },
+     {
+      "Id": "858964037",
+      "Name": "Play_TestBeep_lp",
+      "ObjectPath": "\\Events\\TestEvents\\Play_TestBeep_lp",
+      "GUID": "{00CD0BEA-9AE4-4C60-AF8C-E46876E08C65}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "734743432"
+       }
+      ]
+     },
+     {
+      "Id": "161393517",
+      "Name": "Play_TestBeep_lp_3D",
+      "ObjectPath": "\\Events\\TestEvents\\Play_TestBeep_lp_3D",
+      "GUID": "{109820F0-AFDC-403F-9C69-0C4F082F8A76}",
+      "MaxAttenuation": "50",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "734743432"
+       }
+      ]
+     },
+     {
+      "Id": "3106700779",
+      "Name": "Stop_TestBeep_lp",
+      "ObjectPath": "\\Events\\TestEvents\\Stop_TestBeep_lp",
+      "GUID": "{1A141C72-5E9C-4F7F-AEDC-DA6CD3F50CE0}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1670385919",
+      "Name": "Stop_TestBeep_lp_3D",
+      "ObjectPath": "\\Events\\TestEvents\\Stop_TestBeep_lp_3D",
+      "GUID": "{7F3CBD8F-DDE6-47B3-BE3D-A168BF324D57}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8E0925EA-B5DB-4B6F-FF2C-C97BB4F72C7B}"
+ }
+}

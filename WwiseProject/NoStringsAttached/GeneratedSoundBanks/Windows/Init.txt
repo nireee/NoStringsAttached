@@ -1,0 +1,73 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2051106367	PlayerSpeedSwitch			\Default Work Unit\PlayerSpeedSwitch	
+
+Switch	ID	Name	Switch Group			Notes
+	2108779966	Walk	PlayerSpeedSwitch			
+	2884887403	Sneak	PlayerSpeedSwitch			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	185713839	RoomState			\Default Work Unit\RoomState	
+	1021618141	MusicState			\Default Work Unit\MusicState	
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+	2064552269	AreaState			\Default Work Unit\AreaState	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+
+State	ID	Name	State Group			Notes
+	144697359	Outdoor	RoomState			
+	340398852	Indoor	RoomState			
+	748895195	None	RoomState			
+	77978275	Ambient	MusicState			
+	748895195	None	MusicState			
+	2909291642	Stealth	MusicState			
+	748895195	None	GameStatus			
+	984691642	InGame	GameStatus			
+	3374585465	InMenu	GameStatus			
+	748895195	None	AreaState			
+	1957393784	AbandonedTent	AreaState			
+	2132800442	BigTent	AreaState			
+	655265632	Alive	PlayerState			
+	748895195	None	PlayerState			
+	2044049779	Dead	PlayerState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	309309195	2DAmbience			\Default Work Unit\Master Audio Bus\AmbientMaster\2DAmbience	
+	527334677	CinematicsMaster			\Default Work Unit\Master Audio Bus\CinematicsMaster	
+	1037982109	PlayerWood			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement\PlayerWood	
+	1182634443	AmbientBeds			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds	
+	1301074112	3DAmbience			\Default Work Unit\Master Audio Bus\AmbientMaster\3DAmbience	
+	1350496757	PlayerMovement			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement	
+	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\AmbientMaster	
+	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement\PlayerFootsteps	
+	1681633080	SFXMaster			\Default Work Unit\Master Audio Bus\SFXMaster	
+	2033911932	NPCMaster			\Default Work Unit\Master Audio Bus\NPCMaster	
+	2822730895	PlayerMechanics			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMechanics	
+	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\PlayerMaster	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4152869693	2DAmbientBeds			\Default Work Unit\Master Audio Bus\AmbientMaster\AmbientBeds\2DAmbientBeds	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2577233981	LargeTent			\Default Work Unit\Master Audio Bus\Reverbs\LargeTent	
+	3059984139	Tunnel			\Default Work Unit\Master Audio Bus\Reverbs\Tunnel	
+	3545700988	Reverbs			\Default Work Unit\Master Audio Bus\Reverbs	
+	4095504729	SmallTent			\Default Work Unit\Master Audio Bus\Reverbs\SmallTent	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

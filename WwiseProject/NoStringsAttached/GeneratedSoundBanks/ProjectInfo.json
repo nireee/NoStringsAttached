@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "NoStringsAttached",
+   "GUID": "{958F7A1B-A388-49CC-865B-CAF09ADD0071}",
+   "Generator": "2022.1.8.8316"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Switch",
+    "GUID": "{BB137EB4-CCA1-4ADA-8E98-3F872DE671C3}",
+    "BasePlatform": "Switch",
+    "BasePlatformGUID": "{874F26D2-416D-4698-BFB6-3427CAFCFF9C}",
+    "Path": "Switch"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{B1989491-993E-4BB7-A94B-332D4402CE5F}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{AC15AB17-8BA4-404E-BB84-EBDEFE6D7063}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{15519662-C511-334C-667C-E58957F9D426}"
+ }
+}

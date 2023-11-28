@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	161393517	Play_TestBeep_lp_3D			\TestEvents\Play_TestBeep_lp_3D	
+	858964037	Play_TestBeep_lp			\TestEvents\Play_TestBeep_lp	
+	1670385919	Stop_TestBeep_lp_3D			\TestEvents\Stop_TestBeep_lp_3D	
+	1681067324	Play_TestBeep_3D			\TestEvents\Play_TestBeep_3D	
+	1955951874	Play_TestBeep			\TestEvents\Play_TestBeep	
+	3106700779	Stop_TestBeep_lp			\TestEvents\Stop_TestBeep_lp	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	407628506	sfx_test_beep_100ms_3D	C:\Users\u1132304\Documents\GitHub\NoStringsAttached\WwiseProject\NoStringsAttached\.cache\Windows\SFX\TestFiles\sfx_test_beep_10C4C929.wem		\Actor-Mixer Hierarchy\TestFiles\3DTestFiles\sfx_test_beep_100ms_3D		20126
+	734743432	sfx_test_beep_lp_3D	C:\Users\u1132304\Documents\GitHub\NoStringsAttached\WwiseProject\NoStringsAttached\.cache\Windows\SFX\TestFiles\sfx_test_beep_D79FB2B7.wem		\Actor-Mixer Hierarchy\TestFiles\3DTestFiles\sfx_test_beep_lp_3D		20126
+
