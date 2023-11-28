@@ -58,6 +58,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="SourceControlGeneratedFiles" Type="bool" Value="True"/>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2022.1|Build=8316|VersionName=v2022.1.8|Config=Release"/>
 			</PropertyList>
 			<MiscSettings>

@@ -14,7 +14,7 @@
 		<CopyLooseStreamedMediaFiles>true</CopyLooseStreamedMediaFiles>
 		<SubFoldersForGeneratedFiles>false</SubFoldersForGeneratedFiles>
 		<RemoveUnusedGeneratedFiles>true</RemoveUnusedGeneratedFiles>
-		<SourceControlGeneratedFiles>false</SourceControlGeneratedFiles>
+		<SourceControlGeneratedFiles>true</SourceControlGeneratedFiles>
 		<GenerateHeaderFile>false</GenerateHeaderFile>
 		<GenerateContentTxtFile>true</GenerateContentTxtFile>
 		<GenerateMetadataXML>true</GenerateMetadataXML>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>true</PrintObjectGuid>
 		<PrintObjectPath>true</PrintObjectPath>
 	</Settings>
-	<FileHash>{4515BB32-97C5-0694-EFD6-BDFE93F53A87}</FileHash>
+	<FileHash>{DC521EFA-6895-6E03-3C37-FE1A1A750CBA}</FileHash>
 </PlatformInfo>
