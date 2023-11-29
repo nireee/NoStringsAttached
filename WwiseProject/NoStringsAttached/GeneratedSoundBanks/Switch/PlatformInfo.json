@@ -3,7 +3,7 @@
   "Platform": {
    "Name": "Switch",
    "BasePlatform": "Switch",
-   "Generator": "2022.1.8.8316"
+   "Generator": "2023.1.0.8367"
   },
   "RootPaths": {
    "ProjectRoot": "../..",
@@ -32,6 +32,6 @@
    "PrintObjectGuid": "true",
    "PrintObjectPath": "true"
   },
-  "FileHash": "{627B227E-39D7-3B10-2A69-11FD1A1F22C5}"
+  "FileHash": "{62B68BB4-9CFE-46D9-786B-9C4A531D7A40}"
  }
 }

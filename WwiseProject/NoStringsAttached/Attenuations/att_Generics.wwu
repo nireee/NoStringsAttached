@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8794D586-85EE-4D19-93E9-9D0D1D8898A4}" SchemaVersion="110" RootDocumentID="{C5C1D5A6-4B03-4DC8-B507-508BCBE46CD8}" ParentDocumentID="{C5C1D5A6-4B03-4DC8-B507-508BCBE46CD8}">
+<WwiseDocument Type="WorkUnit" ID="{8794D586-85EE-4D19-93E9-9D0D1D8898A4}" SchemaVersion="119" RootDocumentID="{C5C1D5A6-4B03-4DC8-B507-508BCBE46CD8}" ParentDocumentID="{C5C1D5A6-4B03-4DC8-B507-508BCBE46CD8}">
 	<Attenuations>
 		<WorkUnit Name="att_Generics" ID="{8794D586-85EE-4D19-93E9-9D0D1D8898A4}" OwnerID="{C5C1D5A6-4B03-4DC8-B507-508BCBE46CD8}" PersistMode="Nested">
 			<ChildrenList>

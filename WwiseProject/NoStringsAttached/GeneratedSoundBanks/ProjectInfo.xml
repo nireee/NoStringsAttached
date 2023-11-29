@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo>
-	<Project Name="NoStringsAttached" GUID="{958F7A1B-A388-49CC-865B-CAF09ADD0071}" Generator="2022.1.8.8316"/>
+	<Project Name="NoStringsAttached" GUID="{958F7A1B-A388-49CC-865B-CAF09ADD0071}" Generator="2023.1.0.8367"/>
 	<CacheRoot>../.cache</CacheRoot>
 	<Platforms>
 		<Platform Name="Switch" GUID="{BB137EB4-CCA1-4ADA-8E98-3F872DE671C3}" BasePlatform="Switch" BasePlatformGUID="{874F26D2-416D-4698-BFB6-3427CAFCFF9C}" Path="Switch"/>
@@ -9,5 +9,5 @@
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{AC15AB17-8BA4-404E-BB84-EBDEFE6D7063}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{5885E639-1C53-85C4-75FE-593A3BE1D1C8}</FileHash>
+	<FileHash>{F1DCBCD3-6F00-9C82-DE19-503872DEB1D7}</FileHash>
 </ProjectInfo>

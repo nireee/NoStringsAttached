@@ -3,7 +3,7 @@
   "Platform": "Windows",
   "BasePlatform": "Windows",
   "SchemaVersion": "16",
-  "SoundBankVersion": "145",
+  "SoundBankVersion": "150",
   "RootPaths": {
    "ProjectRoot": "../..",
    "SourceFilesRoot": "../../.cache/Windows",
@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{49C65FAC-D0AB-4C06-B60E-1B4EB4459EDB}",
     "Language": "SFX",
-    "Hash": "{8D9F0C8E-CF35-A111-8FFB-00347B388C22}",
+    "Hash": "{44AAEB68-B80A-919B-C73D-06A673332B00}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk"
@@ -28,7 +28,7 @@
     "Type": "User",
     "GUID": "{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}",
     "Language": "SFX",
-    "Hash": "{419928E2-77FD-4742-A3CC-E48849B6DE0E}",
+    "Hash": "{8358592D-2765-8F89-B9D2-EC849736D191}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -39,7 +39,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "TestFiles\\sfx_test_beep.wav",
-      "CachePath": "SFX/TestFiles/sfx_test_beep_10C4C929.wem"
+      "CachePath": "SFX/TestFiles/sfx_test_beep_818F3B66.wem"
      },
      {
       "Id": "734743432",
@@ -47,7 +47,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "TestFiles\\sfx_test_beep.wav",
-      "CachePath": "SFX/TestFiles/sfx_test_beep_D79FB2B7.wem"
+      "CachePath": "SFX/TestFiles/sfx_test_beep_FBC78EF0.wem"
      }
     ],
     "Events": [
@@ -132,7 +132,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{354577D2-40A8-6C98-E0D3-9D38D58BE7D6}",
+    "Hash": "{476B952B-8D99-6144-2172-91685A2D4B2B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -639,6 +639,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -665,6 +670,11 @@
        },
        {
         "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
         "Type": "Real32",
         "Value": "0"
        }
@@ -695,6 +705,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "14"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -723,6 +738,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -751,6 +771,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -779,6 +804,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "72"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -807,6 +837,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -835,6 +870,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -861,6 +901,11 @@
        },
        {
         "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
         "Type": "Real32",
         "Value": "0"
        }
@@ -891,6 +936,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "84"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -919,6 +969,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -947,6 +1002,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "2"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -975,6 +1035,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -1003,6 +1068,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "9"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      }
@@ -1013,12 +1083,12 @@
     "Type": "User",
     "GUID": "{964B559E-4712-4D36-8672-55D85FE75FF8}",
     "Language": "SFX",
-    "Hash": "{E3BE5FB4-5107-122D-698C-9054FB7F5875}",
+    "Hash": "{EBB965E6-7B9A-9F2A-38B0-955ABD1945C5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk"
    }
   ],
-  "FileHash": "{3B43AEF0-CF4D-2E0D-7173-F676B028C7D8}"
+  "FileHash": "{BE6A3098-9E46-2A1D-31D5-4DFA2AD0DDA6}"
  }
 }

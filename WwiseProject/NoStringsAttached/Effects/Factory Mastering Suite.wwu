@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{0D1C409E-A735-471E-A538-63B18D993BE9}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{0D1C409E-A735-471E-A538-63B18D993BE9}" SchemaVersion="119">
 	<Effects>
 		<WorkUnit Name="Factory Mastering Suite" ID="{0D1C409E-A735-471E-A538-63B18D993BE9}" PersistMode="Standalone">
 			<ChildrenList>

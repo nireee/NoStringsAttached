@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}" Language="SFX" Hash="{419928E2-77FD-4742-A3CC-E48849B6DE0E}">
+		<SoundBank Id="393239870" Type="User" GUID="{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}" Language="SFX" Hash="{8358592D-2765-8F89-B9D2-EC849736D191}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
 				<File Id="407628506" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TestFiles\sfx_test_beep.wav</ShortName>
-					<CachePath>SFX/TestFiles/sfx_test_beep_10C4C929.wem</CachePath>
+					<CachePath>SFX/TestFiles/sfx_test_beep_818F3B66.wem</CachePath>
 				</File>
 				<File Id="734743432" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TestFiles\sfx_test_beep.wav</ShortName>
-					<CachePath>SFX/TestFiles/sfx_test_beep_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/TestFiles/sfx_test_beep_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -41,5 +41,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3A919203-3FC4-D39D-31F7-E8BC3EA07248}</FileHash>
+	<FileHash>{E5D163C1-365C-B5C3-BC15-2D814F986755}</FileHash>
 </SoundBanksInfo>
