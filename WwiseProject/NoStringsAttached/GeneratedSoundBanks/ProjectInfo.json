@@ -3,7 +3,7 @@
   "Project": {
    "Name": "NoStringsAttached",
    "GUID": "{958F7A1B-A388-49CC-865B-CAF09ADD0071}",
-   "Generator": "2022.1.8.8316"
+   "Generator": "2023.1.0.8367"
   },
   "CacheRoot": "../.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{15519662-C511-334C-667C-E58957F9D426}"
+  "FileHash": "{58258F59-0C56-EB3B-1DAE-A9236FB925CF}"
  }
 }

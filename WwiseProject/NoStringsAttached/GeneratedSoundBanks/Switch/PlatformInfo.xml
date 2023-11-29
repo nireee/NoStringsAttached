@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlatformInfo>
-	<Platform Name="Switch" BasePlatform="Switch" Generator="2022.1.8.8316"/>
+	<Platform Name="Switch" BasePlatform="Switch" Generator="2023.1.0.8367"/>
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
 		<SourceFilesRoot>../../.cache/Switch</SourceFilesRoot>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>true</PrintObjectGuid>
 		<PrintObjectPath>true</PrintObjectPath>
 	</Settings>
-	<FileHash>{C3B4966E-50E0-DF6C-B6B5-40D9AD9C2CF5}</FileHash>
+	<FileHash>{A735910F-1E9A-3B24-A1C3-E626B70289D4}</FileHash>
 </PlatformInfo>

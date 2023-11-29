@@ -3,19 +3,19 @@
   "Platform": "Switch",
   "BasePlatform": "Switch",
   "SchemaVersion": "16",
-  "SoundBankVersion": "145",
+  "SoundBankVersion": "150",
   "SoundBanks": [
    {
     "Id": "3991942870",
     "Type": "User",
     "GUID": "{964B559E-4712-4D36-8672-55D85FE75FF8}",
     "Language": "SFX",
-    "Hash": "{E3BE5FB4-5107-122D-698C-9054FB7F5875}",
+    "Hash": "{EBB965E6-7B9A-9F2A-38B0-955ABD1945C5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk"
    }
   ],
-  "FileHash": "{E7537BBA-BD97-71C3-CB61-5F5B56DD6220}"
+  "FileHash": "{32D6998F-074F-B004-701C-FB20CD2C514B}"
  }
 }

@@ -3,14 +3,14 @@
   "Platform": "Windows",
   "BasePlatform": "Windows",
   "SchemaVersion": "16",
-  "SoundBankVersion": "145",
+  "SoundBankVersion": "150",
   "SoundBanks": [
    {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{354577D2-40A8-6C98-E0D3-9D38D58BE7D6}",
+    "Hash": "{476B952B-8D99-6144-2172-91685A2D4B2B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -517,6 +517,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -543,6 +548,11 @@
        },
        {
         "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
         "Type": "Real32",
         "Value": "0"
        }
@@ -573,6 +583,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "14"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -601,6 +616,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -629,6 +649,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -657,6 +682,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "72"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -685,6 +715,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -713,6 +748,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -739,6 +779,11 @@
        },
        {
         "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
         "Type": "Real32",
         "Value": "0"
        }
@@ -769,6 +814,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "84"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -797,6 +847,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -825,6 +880,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "2"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -853,6 +913,11 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      },
@@ -881,12 +946,17 @@
         "Name": "AbsorptionHigh",
         "Type": "Real32",
         "Value": "9"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{3C6FE350-F1E1-14F8-56DB-272973639741}"
+  "FileHash": "{EEB8DC84-4BC6-86B1-8662-BEC82F522DDE}"
  }
 }
