@@ -5,12 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_TestBeep_lp_3D" ID="{109820F0-AFDC-403F-9C69-0C4F082F8A76}" WorkUnitID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_TestBeep_lp_3D" ID="{7F3CBD8F-DDE6-47B3-BE3D-A168BF324D57}" WorkUnitID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_TestBeep_3D" ID="{ABAB4C37-A367-49E7-AC0C-315EDB1FB097}" WorkUnitID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_TestBeep_lp" ID="{00CD0BEA-9AE4-4C60-AF8C-E46876E08C65}" WorkUnitID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_TestBeep" ID="{5D9EF484-D0EA-4CEC-99C7-B49A864C4C76}" WorkUnitID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_TestBeep_lp" ID="{1A141C72-5E9C-4F7F-AEDC-DA6CD3F50CE0}" WorkUnitID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{7C7352BC-75EE-41DE-95E4-1114771136B7}" WorkUnitID="{7C7352BC-75EE-41DE-95E4-1114771136B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX" ID="{EA0441F5-9D98-43AE-A5FE-488D73C3948F}" WorkUnitID="{EA0441F5-9D98-43AE-A5FE-488D73C3948F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TestEvents" ID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" WorkUnitID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -5,10 +5,8 @@
 			<ChildrenList>
 				<SwitchGroup Name="GroundMaterial" ID="{DFFD9305-1DBC-4EC7-9BB6-81B52C0204AE}">
 					<ChildrenList>
-						<Switch Name="Dirt" ID="{CC41DBD3-7A89-42AC-9034-EDF1739AB41C}"/>
-						<Switch Name="Grass" ID="{A45F2FD8-C45B-408D-A7B2-D438D9E33847}"/>
-						<Switch Name="Water" ID="{8D200B28-C78C-4BE1-AAC3-A8C491EB7F0E}"/>
-						<Switch Name="Wood" ID="{75B68E50-C473-402E-9743-14A0E6BFE9AC}"/>
+						<Switch Name="Soft" ID="{A45F2FD8-C45B-408D-A7B2-D438D9E33847}"/>
+						<Switch Name="Hard" ID="{8D200B28-C78C-4BE1-AAC3-A8C491EB7F0E}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="PlayerSpeedSwitch" ID="{C388DAD0-19AF-4DD8-91C5-58865AFFD65E}">

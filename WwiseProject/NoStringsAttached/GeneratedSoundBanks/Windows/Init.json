@@ -465,28 +465,16 @@
       "GUID": "{DFFD9305-1DBC-4EC7-9BB6-81B52C0204AE}",
       "Switches": [
        {
-        "Id": "2058049674",
-        "Name": "Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Wood",
-        "GUID": "{75B68E50-C473-402E-9743-14A0E6BFE9AC}"
-       },
-       {
-        "Id": "2195636714",
-        "Name": "Dirt",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Dirt",
-        "GUID": "{CC41DBD3-7A89-42AC-9034-EDF1739AB41C}"
-       },
-       {
-        "Id": "2654748154",
-        "Name": "Water",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Water",
-        "GUID": "{8D200B28-C78C-4BE1-AAC3-A8C491EB7F0E}"
-       },
-       {
-        "Id": "4248645337",
-        "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Grass",
+        "Id": "670602561",
+        "Name": "Soft",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Soft",
         "GUID": "{A45F2FD8-C45B-408D-A7B2-D438D9E33847}"
+       },
+       {
+        "Id": "3599861390",
+        "Name": "Hard",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Hard",
+        "GUID": "{8D200B28-C78C-4BE1-AAC3-A8C491EB7F0E}"
        }
       ]
      }
@@ -957,6 +945,6 @@
     ]
    }
   ],
-  "FileHash": "{EEB8DC84-4BC6-86B1-8662-BEC82F522DDE}"
+  "FileHash": "{1836562D-29B6-6C40-EAFF-04D863F8E3B7}"
  }
 }
