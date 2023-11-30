@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{DC46BF3D-AE78-4282-9279-B91F8E3D7256}" SchemaVersion="110" RootDocumentID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}" ParentDocumentID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}">
+<WwiseDocument Type="WorkUnit" ID="{DC46BF3D-AE78-4282-9279-B91F8E3D7256}" SchemaVersion="119" RootDocumentID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}" ParentDocumentID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}">
 	<AudioObjects>
 		<WorkUnit Name="PavoFootsteps" ID="{DC46BF3D-AE78-4282-9279-B91F8E3D7256}" OwnerID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}" PersistMode="Nested">
 			<ChildrenList>

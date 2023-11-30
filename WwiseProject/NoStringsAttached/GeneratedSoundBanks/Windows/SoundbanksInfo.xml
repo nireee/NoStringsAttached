@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
 		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
@@ -9,23 +9,23 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" GUID="{49C65FAC-D0AB-4C06-B60E-1B4EB4459EDB}" Language="SFX" Hash="{8D9F0C8E-CF35-A111-8FFB-00347B388C22}">
+		<SoundBank Id="85412153" Type="User" GUID="{49C65FAC-D0AB-4C06-B60E-1B4EB4459EDB}" Language="SFX" Hash="{44AAEB68-B80A-919B-C73D-06A673332B00}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" GUID="{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}" Language="SFX" Hash="{419928E2-77FD-4742-A3CC-E48849B6DE0E}">
+		<SoundBank Id="393239870" Type="User" GUID="{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}" Language="SFX" Hash="{8358592D-2765-8F89-B9D2-EC849736D191}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
 				<File Id="407628506" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TestFiles\sfx_test_beep.wav</ShortName>
-					<CachePath>SFX/TestFiles/sfx_test_beep_10C4C929.wem</CachePath>
+					<CachePath>SFX/TestFiles/sfx_test_beep_818F3B66.wem</CachePath>
 				</File>
 				<File Id="734743432" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TestFiles\sfx_test_beep.wav</ShortName>
-					<CachePath>SFX/TestFiles/sfx_test_beep_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/TestFiles/sfx_test_beep_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -53,7 +53,7 @@
 				<Event Id="1670385919" Name="Stop_TestBeep_lp_3D" ObjectPath="\Events\TestEvents\Stop_TestBeep_lp_3D" GUID="{7F3CBD8F-DDE6-47B3-BE3D-A168BF324D57}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{354577D2-40A8-6C98-E0D3-9D38D58BE7D6}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{476B952B-8D99-6144-2172-91685A2D4B2B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -187,6 +187,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="513139656" Name="Mountain" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain" GUID="{C5933731-001A-4AB4-98DD-9B033A8C8EAB}">
@@ -195,6 +196,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="841620460" Name="Concrete" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete" GUID="{5CF81C00-2896-4AE0-AF7C-3080BDABA682}">
@@ -203,6 +205,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="1755085759" Name="Wood_Deep" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep" GUID="{5246478E-C5DA-4E0C-A0DE-C98D1479529A}">
@@ -211,6 +214,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="1873957695" Name="Anechoic" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic" GUID="{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}">
@@ -219,6 +223,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="1970351858" Name="Fabric" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric" GUID="{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}">
@@ -227,6 +232,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="2058049674" Name="Wood" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood" GUID="{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}">
@@ -235,6 +241,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="2412606308" Name="Carpet" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet" GUID="{34227589-DC56-4260-96C4-B9F4B669092B}">
@@ -243,6 +250,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="2637588553" Name="Tile" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Tile" GUID="{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}">
@@ -251,6 +259,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="2928161104" Name="Curtains" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains" GUID="{F8E69E33-5C97-4968-B508-A1535F2D66E8}">
@@ -259,6 +268,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="3195498748" Name="Cork_Tiles" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles" GUID="{30D2C919-925F-4143-8906-3DBB3C4AE5E2}">
@@ -267,6 +277,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="3670307564" Name="Drywall" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall" GUID="{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}">
@@ -275,6 +286,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="4168643977" Name="Acoustic_Banner" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner" GUID="{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}">
@@ -283,6 +295,7 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 				<AcousticTexture Id="4262522749" Name="Wood_Bright" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright" GUID="{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}">
@@ -291,15 +304,16 @@
 						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
 						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
 						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
 					</Properties>
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" GUID="{964B559E-4712-4D36-8672-55D85FE75FF8}" Language="SFX" Hash="{E3BE5FB4-5107-122D-698C-9054FB7F5875}">
+		<SoundBank Id="3991942870" Type="User" GUID="{964B559E-4712-4D36-8672-55D85FE75FF8}" Language="SFX" Hash="{EBB965E6-7B9A-9F2A-38B0-955ABD1945C5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D3D37D80-7658-9F2E-F275-696EFC110E9C}</FileHash>
+	<FileHash>{373AEC40-05A8-FD14-877F-AA1C42B7B111}</FileHash>
 </SoundBanksInfo>

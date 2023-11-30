@@ -3,14 +3,14 @@
   "Platform": "Switch",
   "BasePlatform": "Switch",
   "SchemaVersion": "16",
-  "SoundBankVersion": "145",
+  "SoundBankVersion": "150",
   "SoundBanks": [
    {
     "Id": "393239870",
     "Type": "User",
     "GUID": "{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}",
     "Language": "SFX",
-    "Hash": "{419928E2-77FD-4742-A3CC-E48849B6DE0E}",
+    "Hash": "{8358592D-2765-8F89-B9D2-EC849736D191}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "TestFiles\\sfx_test_beep.wav",
-      "CachePath": "SFX/TestFiles/sfx_test_beep_10C4C929.wem"
+      "CachePath": "SFX/TestFiles/sfx_test_beep_818F3B66.wem"
      },
      {
       "Id": "734743432",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "TestFiles\\sfx_test_beep.wav",
-      "CachePath": "SFX/TestFiles/sfx_test_beep_D79FB2B7.wem"
+      "CachePath": "SFX/TestFiles/sfx_test_beep_FBC78EF0.wem"
      }
     ],
     "Events": [
@@ -110,6 +110,6 @@
     ]
    }
   ],
-  "FileHash": "{5BC35688-FFC1-6198-1AB5-2428DA79354B}"
+  "FileHash": "{F8F243B5-51E0-8B98-D70B-AA55D5AFC236}"
  }
 }

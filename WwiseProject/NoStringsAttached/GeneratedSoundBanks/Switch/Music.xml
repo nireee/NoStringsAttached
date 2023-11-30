@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Switch" BasePlatform="Switch" SchemaVersion="16" SoundBankVersion="145">
+<SoundBanksInfo Platform="Switch" BasePlatform="Switch" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3991942870" Type="User" GUID="{964B559E-4712-4D36-8672-55D85FE75FF8}" Language="SFX" Hash="{E3BE5FB4-5107-122D-698C-9054FB7F5875}">
+		<SoundBank Id="3991942870" Type="User" GUID="{964B559E-4712-4D36-8672-55D85FE75FF8}" Language="SFX" Hash="{EBB965E6-7B9A-9F2A-38B0-955ABD1945C5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{81290866-92C9-73F4-6C0A-6665AAD6C5A2}</FileHash>
+	<FileHash>{B91B20A1-5B87-EE9D-7D12-4638A222B0CC}</FileHash>
 </SoundBanksInfo>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="NPC" ID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" PersistMode="Standalone"/>
 	</AudioObjects>
