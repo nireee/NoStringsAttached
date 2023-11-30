@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="PavoFootsteps" ID="{DC46BF3D-AE78-4282-9279-B91F8E3D7256}" PersistMode="Reference"/>
 				<WorkUnit Name="PavoCloth" ID="{5126EE47-53D5-46F8-8C5C-9F837973CAC0}" PersistMode="Reference"/>
+				<WorkUnit Name="PavoMovement" ID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

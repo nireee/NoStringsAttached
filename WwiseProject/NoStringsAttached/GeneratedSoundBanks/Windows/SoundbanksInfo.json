@@ -28,7 +28,7 @@
     "Type": "User",
     "GUID": "{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}",
     "Language": "SFX",
-    "Hash": "{8358592D-2765-8F89-B9D2-EC849736D191}",
+    "Hash": "{9C32EB36-66D9-FF8C-9AD8-3910CF7D6931}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -51,6 +51,146 @@
      }
     ],
     "Events": [
+     {
+      "Id": "3231647187",
+      "Name": "Play_char_pav_climb_down",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_climb_down",
+      "GUID": "{3948E0CF-4811-477F-90C4-77D7AE6689AA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2633539370",
+      "Name": "Play_char_pav_climb_end",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_climb_end",
+      "GUID": "{4109347B-7F00-4752-A40E-810B76880E45}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1761160092",
+      "Name": "Play_char_pav_climb_left",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_climb_left",
+      "GUID": "{071D9DDA-046D-4EF4-AF21-5DB8D695502E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "821340123",
+      "Name": "Play_char_pav_climb_right",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_climb_right",
+      "GUID": "{7DA5D4C6-582E-4857-BC29-64B261E9FBBE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2444110501",
+      "Name": "Play_char_pav_cloth_wood",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_cloth_wood",
+      "GUID": "{66EBAC98-8F89-4B24-AF7F-714F6DCE7DEB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2962656628",
+      "Name": "Play_char_pav_fs",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_fs",
+      "GUID": "{4CE586AB-2726-44C7-BF96-950733CE3A26}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "SwitchContainers": []
+     },
+     {
+      "Id": "2645599981",
+      "Name": "Play_char_pav_jump",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_jump",
+      "GUID": "{F7F302D9-E762-47AE-BE6A-D775B039213E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1216802322",
+      "Name": "Play_char_pav_land",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_land",
+      "GUID": "{7A09B695-770E-4B78-868B-AE7A1BB029E0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "610258827",
+      "Name": "Play_char_pav_swing_bwd",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_swing_bwd",
+      "GUID": "{073E8F2F-981D-4CC9-9167-E3DEC351D041}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "609567479",
+      "Name": "Play_char_pav_swing_fwd",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_swing_fwd",
+      "GUID": "{5CAEFB6A-4933-4738-AF86-F58052CC873E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3663494216",
+      "Name": "Play_char_pav_zipline",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_zipline",
+      "GUID": "{A55FFAE5-EAD6-47B8-A19A-BC28FD3908BC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "767421973",
+      "Name": "Play_sfx_box_pull",
+      "ObjectPath": "\\Events\\SFX\\Box\\Play_sfx_box_pull",
+      "GUID": "{B494FF4E-4D34-4C54-80BC-CC39D1016A61}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1186862524",
+      "Name": "Play_sfx_box_push",
+      "ObjectPath": "\\Events\\SFX\\Box\\Play_sfx_box_push",
+      "GUID": "{FFAD90CB-0A78-4966-A5CB-8F750EB416EB}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1312371701",
+      "Name": "Play_sfx_door_open",
+      "ObjectPath": "\\Events\\SFX\\Door\\Play_sfx_door_open",
+      "GUID": "{99CFBA2F-33A5-4FF5-B3E6-4F52EDFB5DF2}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2697152436",
+      "Name": "Play_sfx_floor_break",
+      "ObjectPath": "\\Events\\SFX\\Floor\\Play_sfx_floor_break",
+      "GUID": "{AA316F07-7AE2-4DD2-9B4B-551959025890}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
      {
       "Id": "1955951874",
       "Name": "Play_TestBeep",
@@ -106,6 +246,36 @@
       ]
      },
      {
+      "Id": "3386643994",
+      "Name": "Stop_char_pav_zipline",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Stop_char_pav_zipline",
+      "GUID": "{F5EE2773-9EF2-4BBE-97A8-95EA24C2CF4D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2491441227",
+      "Name": "Stop_sfx_box_pull",
+      "ObjectPath": "\\Events\\SFX\\Box\\Stop_sfx_box_pull",
+      "GUID": "{0A77E96B-3347-45CE-9A95-8A65F1BD1D25}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2038445518",
+      "Name": "Stop_sfx_box_push",
+      "ObjectPath": "\\Events\\SFX\\Box\\Stop_sfx_box_push",
+      "GUID": "{CDF8F6D0-F572-4405-A649-DE03902D6B22}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "3106700779",
       "Name": "Stop_TestBeep_lp",
       "ObjectPath": "\\Events\\TestEvents\\Stop_TestBeep_lp",
@@ -124,6 +294,28 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3072116243",
+      "Name": "GroundMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial",
+      "GUID": "{DFFD9305-1DBC-4EC7-9BB6-81B52C0204AE}",
+      "Switches": [
+       {
+        "Id": "670602561",
+        "Name": "Soft",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Soft",
+        "GUID": "{A45F2FD8-C45B-408D-A7B2-D438D9E33847}"
+       },
+       {
+        "Id": "3599861390",
+        "Name": "Hard",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Hard",
+        "GUID": "{8D200B28-C78C-4BE1-AAC3-A8C491EB7F0E}"
+       }
+      ]
      }
     ]
    },
@@ -587,28 +779,16 @@
       "GUID": "{DFFD9305-1DBC-4EC7-9BB6-81B52C0204AE}",
       "Switches": [
        {
-        "Id": "2058049674",
-        "Name": "Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Wood",
-        "GUID": "{75B68E50-C473-402E-9743-14A0E6BFE9AC}"
-       },
-       {
-        "Id": "2195636714",
-        "Name": "Dirt",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Dirt",
-        "GUID": "{CC41DBD3-7A89-42AC-9034-EDF1739AB41C}"
-       },
-       {
-        "Id": "2654748154",
-        "Name": "Water",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Water",
-        "GUID": "{8D200B28-C78C-4BE1-AAC3-A8C491EB7F0E}"
-       },
-       {
-        "Id": "4248645337",
-        "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Grass",
+        "Id": "670602561",
+        "Name": "Soft",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Soft",
         "GUID": "{A45F2FD8-C45B-408D-A7B2-D438D9E33847}"
+       },
+       {
+        "Id": "3599861390",
+        "Name": "Hard",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Hard",
+        "GUID": "{8D200B28-C78C-4BE1-AAC3-A8C491EB7F0E}"
        }
       ]
      }
@@ -1089,6 +1269,6 @@
     "Path": "Music.bnk"
    }
   ],
-  "FileHash": "{BE6A3098-9E46-2A1D-31D5-4DFA2AD0DDA6}"
+  "FileHash": "{49EEF558-6C89-0F70-31AF-6355F8F9C834}"
  }
 }
