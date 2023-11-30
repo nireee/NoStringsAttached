@@ -1,12 +1,37 @@
 Event	ID	Name			Wwise Object Path	Notes
 	161393517	Play_TestBeep_lp_3D			\TestEvents\Play_TestBeep_lp_3D	
+	609567479	Play_char_pav_swing_fwd			\Player\Pavo\Play_char_pav_swing_fwd	
+	610258827	Play_char_pav_swing_bwd			\Player\Pavo\Play_char_pav_swing_bwd	
+	767421973	Play_sfx_box_pull			\SFX\Box\Play_sfx_box_pull	
+	821340123	Play_char_pav_climb_right			\Player\Pavo\Play_char_pav_climb_right	
 	858964037	Play_TestBeep_lp			\TestEvents\Play_TestBeep_lp	
+	1186862524	Play_sfx_box_push			\SFX\Box\Play_sfx_box_push	
+	1216802322	Play_char_pav_land			\Player\Pavo\Play_char_pav_land	
+	1312371701	Play_sfx_door_open			\SFX\Door\Play_sfx_door_open	
 	1670385919	Stop_TestBeep_lp_3D			\TestEvents\Stop_TestBeep_lp_3D	
 	1681067324	Play_TestBeep_3D			\TestEvents\Play_TestBeep_3D	
+	1761160092	Play_char_pav_climb_left			\Player\Pavo\Play_char_pav_climb_left	
 	1955951874	Play_TestBeep			\TestEvents\Play_TestBeep	
+	2038445518	Stop_sfx_box_push			\SFX\Box\Stop_sfx_box_push	
+	2444110501	Play_char_pav_cloth_wood			\Player\Pavo\Play_char_pav_cloth_wood	
+	2491441227	Stop_sfx_box_pull			\SFX\Box\Stop_sfx_box_pull	
+	2633539370	Play_char_pav_climb_end			\Player\Pavo\Play_char_pav_climb_end	
+	2645599981	Play_char_pav_jump			\Player\Pavo\Play_char_pav_jump	
+	2697152436	Play_sfx_floor_break			\SFX\Floor\Play_sfx_floor_break	
+	2962656628	Play_char_pav_fs			\Player\Pavo\Play_char_pav_fs	
 	3106700779	Stop_TestBeep_lp			\TestEvents\Stop_TestBeep_lp	
+	3231647187	Play_char_pav_climb_down			\Player\Pavo\Play_char_pav_climb_down	
+	3386643994	Stop_char_pav_zipline			\Player\Pavo\Stop_char_pav_zipline	
+	3663494216	Play_char_pav_zipline			\Player\Pavo\Play_char_pav_zipline	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3072116243	GroundMaterial			\Default Work Unit\GroundMaterial	
+
+Switch	ID	Name	Switch Group			Notes
+	670602561	Soft	GroundMaterial			
+	3599861390	Hard	GroundMaterial			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	407628506	sfx_test_beep_100ms_3D	C:\Users\u1132304\Documents\GitHub\NoStringsAttached\WwiseProject\NoStringsAttached\.cache\Windows\SFX\TestFiles\sfx_test_beep_818F3B66.wem		\Actor-Mixer Hierarchy\TestFiles\3DTestFiles\sfx_test_beep_100ms_3D		20126
-	734743432	sfx_test_beep_lp_3D	C:\Users\u1132304\Documents\GitHub\NoStringsAttached\WwiseProject\NoStringsAttached\.cache\Windows\SFX\TestFiles\sfx_test_beep_FBC78EF0.wem		\Actor-Mixer Hierarchy\TestFiles\3DTestFiles\sfx_test_beep_lp_3D		20126
+	407628506	sfx_test_beep_100ms	C:\Users\u1132304\Documents\GitHub\NoStringsAttached\WwiseProject\NoStringsAttached\.cache\Windows\SFX\TestFiles\sfx_test_beep_818F3B66.wem		\Actor-Mixer Hierarchy\TestFiles\sfx_test_beep_100ms		20126
+	734743432	sfx_test_beep_lp	C:\Users\u1132304\Documents\GitHub\NoStringsAttached\WwiseProject\NoStringsAttached\.cache\Windows\SFX\TestFiles\sfx_test_beep_FBC78EF0.wem		\Actor-Mixer Hierarchy\TestFiles\sfx_test_beep_lp		20126
 

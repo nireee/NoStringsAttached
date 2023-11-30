@@ -5,18 +5,20 @@
 			<ChildrenList>
 				<Folder Name="Box" ID="{4C664855-3EB8-40D8-B129-C08D7F4A365A}" ShortID="233473602">
 					<ChildrenList>
-						<Event Name="sfx_box_push" ID="{FFAD90CB-0A78-4966-A5CB-8F750EB416EB}"/>
-						<Event Name="sfx_box_pull" ID="{B494FF4E-4D34-4C54-80BC-CC39D1016A61}"/>
+						<Event Name="Play_sfx_box_push" ID="{FFAD90CB-0A78-4966-A5CB-8F750EB416EB}"/>
+						<Event Name="Play_sfx_box_pull" ID="{B494FF4E-4D34-4C54-80BC-CC39D1016A61}"/>
+						<Event Name="Stop_sfx_box_pull" ID="{0A77E96B-3347-45CE-9A95-8A65F1BD1D25}"/>
+						<Event Name="Stop_sfx_box_push" ID="{CDF8F6D0-F572-4405-A649-DE03902D6B22}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Door" ID="{AA2B9E7C-CFA8-4662-A669-4AF01545C7CD}" ShortID="381797700">
 					<ChildrenList>
-						<Event Name="sfx_door_open" ID="{99CFBA2F-33A5-4FF5-B3E6-4F52EDFB5DF2}"/>
+						<Event Name="Play_sfx_door_open" ID="{99CFBA2F-33A5-4FF5-B3E6-4F52EDFB5DF2}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Floor" ID="{2F1E3EB3-23F4-4EB3-81F8-6A383C5C4C4A}" ShortID="819601526">
 					<ChildrenList>
-						<Event Name="sfx_floor_break" ID="{AA316F07-7AE2-4DD2-9B4B-551959025890}"/>
+						<Event Name="Play_sfx_floor_break" ID="{AA316F07-7AE2-4DD2-9B4B-551959025890}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

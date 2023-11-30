@@ -20,6 +20,130 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_char_pav_cloth_wood" ID="{66EBAC98-8F89-4B24-AF7F-714F6DCE7DEB}">
+							<ChildrenList>
+								<Action Name="" ID="{C4C041E0-16F8-46EC-8121-1EA215CC59F7}" ShortID="499251819">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_cloth_wood" ID="{DE3F5391-6AEB-47B7-BB54-9275E28A7EDC}" WorkUnitID="{5126EE47-53D5-46F8-8C5C-9F837973CAC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_climb_end" ID="{4109347B-7F00-4752-A40E-810B76880E45}">
+							<ChildrenList>
+								<Action Name="" ID="{99122BD7-75AD-48E1-BC3E-CB2420865E38}" ShortID="884024155">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_climb_end" ID="{11B9533B-01DC-4DB0-9BC5-EECCC0250F44}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_climb_left" ID="{071D9DDA-046D-4EF4-AF21-5DB8D695502E}">
+							<ChildrenList>
+								<Action Name="" ID="{44038CEE-45DC-4A8C-B143-C593878BE61C}" ShortID="556786137">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_climb_left" ID="{A29E7124-7E9F-4DAA-AB9B-0101C0C374B7}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_climb_right" ID="{7DA5D4C6-582E-4857-BC29-64B261E9FBBE}">
+							<ChildrenList>
+								<Action Name="" ID="{71D52ECC-9F61-40F0-BFA7-FEAC984F4A72}" ShortID="929694074">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_climb_right" ID="{CE924A5C-060B-4633-8E67-40FE60192680}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_climb_down" ID="{3948E0CF-4811-477F-90C4-77D7AE6689AA}">
+							<ChildrenList>
+								<Action Name="" ID="{653DD3A7-713F-4DC5-A364-30C120711EC0}" ShortID="434026265">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_climb_down" ID="{D4F32E81-90BA-4321-A79E-E745B69B5A9A}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_jump" ID="{F7F302D9-E762-47AE-BE6A-D775B039213E}">
+							<ChildrenList>
+								<Action Name="" ID="{B0682F20-D666-4234-A0D2-505C3218C70B}" ShortID="913675717">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_jump" ID="{3BC194A0-8215-43E9-8ADC-A7C839D39841}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_land" ID="{7A09B695-770E-4B78-868B-AE7A1BB029E0}">
+							<ChildrenList>
+								<Action Name="" ID="{10F3C1D7-02C5-4205-934E-41FBC828444E}" ShortID="702467656">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_land" ID="{A2D70517-4A42-408C-AF5C-30A6279292BD}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_swing_fwd" ID="{5CAEFB6A-4933-4738-AF86-F58052CC873E}">
+							<ChildrenList>
+								<Action Name="" ID="{E3259CDB-E359-4CA0-ADCA-435F887938CF}" ShortID="402459700">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_swing_fwd" ID="{8C62BC6B-0E3F-45EC-BEFE-7F2342FF47BD}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_swing_bwd" ID="{073E8F2F-981D-4CC9-9167-E3DEC351D041}">
+							<ChildrenList>
+								<Action Name="" ID="{17A242DC-BB22-4D5E-ABE5-2EF39DD20DCE}" ShortID="616028710">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_swing_bwd" ID="{3BFB14D5-8376-4E40-8488-043DFB36BD3A}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_zipline" ID="{A55FFAE5-EAD6-47B8-A19A-BC28FD3908BC}">
+							<ChildrenList>
+								<Action Name="" ID="{7FD2A7B3-2DB5-4130-BEF0-D88B2B356E0B}" ShortID="636569369">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_zipline" ID="{47525222-6FE7-4E6F-AC80-CB6E4A2468D9}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_char_pav_zipline" ID="{F5EE2773-9EF2-4BBE-97A8-95EA24C2CF4D}">
+							<ChildrenList>
+								<Action Name="" ID="{FB58AF1A-D1A8-4EA7-9496-D3CF8DF5A2AA}" ShortID="863433034">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_zipline" ID="{47525222-6FE7-4E6F-AC80-CB6E4A2468D9}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
