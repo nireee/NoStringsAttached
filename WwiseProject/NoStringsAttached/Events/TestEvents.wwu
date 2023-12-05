@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="TestEvents" ID="{4D351A02-A364-4CE6-9200-B3A8F1724EAC}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Event Name="Play_TestBeep" ID="{5D9EF484-D0EA-4CEC-99C7-B49A864C4C76}">
 					<ChildrenList>

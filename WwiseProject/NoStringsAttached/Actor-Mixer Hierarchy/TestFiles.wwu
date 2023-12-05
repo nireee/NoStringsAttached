@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{700D2CC3-0AC0-48BD-98CB-207C93887945}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="TestFiles" ID="{700D2CC3-0AC0-48BD-98CB-207C93887945}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Sound Name="sfx_test_beep_100ms" ID="{701F3DF3-349D-4E7B-B855-81D88C20B17B}" ShortID="520761886">
 					<ReferenceList>

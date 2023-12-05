@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}",
     "Language": "SFX",
-    "Hash": "{9C32EB36-66D9-FF8C-9AD8-3910CF7D6931}",
+    "Hash": "{07B4E178-78B0-AD83-71C4-5E114B191684}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -107,6 +107,24 @@
       "DurationMax": "0"
      },
      {
+      "Id": "771049572",
+      "Name": "Play_char_pav_seesaw_fail",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_seesaw_fail",
+      "GUID": "{2B0475F8-2A35-4DE7-A9C6-1F36D2FEA5B9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3636159081",
+      "Name": "Play_char_pav_seesaw_launch",
+      "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_seesaw_launch",
+      "GUID": "{6EB428E9-974E-4938-A2D3-A80E9330161D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "610258827",
       "Name": "Play_char_pav_swing_bwd",
       "ObjectPath": "\\Events\\Player\\Pavo\\Play_char_pav_swing_bwd",
@@ -134,31 +152,65 @@
       "DurationMax": "0"
      },
      {
-      "Id": "767421973",
-      "Name": "Play_sfx_box_pull",
-      "ObjectPath": "\\Events\\SFX\\Box\\Play_sfx_box_pull",
+      "Id": "185758190",
+      "Name": "Play_cine_lvl_1_end_scenery",
+      "ObjectPath": "\\Events\\Cinematics\\Play_cine_lvl_1_end_scenery",
+      "GUID": "{D16A47A5-26B3-43F3-8293-DF1CBE001CE9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2208038884",
+      "Name": "Play_sfx_box_pull_lp",
+      "ObjectPath": "\\Events\\SFX\\Interactions\\Box\\Play_sfx_box_pull_lp",
       "GUID": "{B494FF4E-4D34-4C54-80BC-CC39D1016A61}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
      },
      {
-      "Id": "1186862524",
-      "Name": "Play_sfx_box_push",
-      "ObjectPath": "\\Events\\SFX\\Box\\Play_sfx_box_push",
+      "Id": "118894359",
+      "Name": "Play_sfx_box_push_lp",
+      "ObjectPath": "\\Events\\SFX\\Interactions\\Box\\Play_sfx_box_push_lp",
       "GUID": "{FFAD90CB-0A78-4966-A5CB-8F750EB416EB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "901556868",
+      "Name": "Play_sfx_box_scare_seq",
+      "ObjectPath": "\\Events\\SFX\\Interactions\\Play_sfx_box_scare_seq",
+      "GUID": "{793C829D-7BE7-4DEF-93B8-FEBE233E1254}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
      },
      {
-      "Id": "1312371701",
-      "Name": "Play_sfx_door_open",
-      "ObjectPath": "\\Events\\SFX\\Door\\Play_sfx_door_open",
+      "Id": "1331585006",
+      "Name": "Play_sfx_door_fall",
+      "ObjectPath": "\\Events\\SFX\\Interactions\\Play_sfx_door_fall",
       "GUID": "{99CFBA2F-33A5-4FF5-B3E6-4F52EDFB5DF2}",
-      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "204940112",
+      "Name": "Play_sfx_elec_lp",
+      "ObjectPath": "\\Events\\SFX\\Threats\\Electricity\\Play_sfx_elec_lp",
+      "GUID": "{FD8C33F5-7273-4261-8AA0-0309698FB4F9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "638004907",
+      "Name": "Play_sfx_elec_spark",
+      "ObjectPath": "\\Events\\SFX\\Threats\\Electricity\\Play_sfx_elec_spark",
+      "GUID": "{08FA8B9E-CCF2-45CC-A92E-DC1C55CB572B}",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -166,9 +218,44 @@
      {
       "Id": "2697152436",
       "Name": "Play_sfx_floor_break",
-      "ObjectPath": "\\Events\\SFX\\Floor\\Play_sfx_floor_break",
+      "ObjectPath": "\\Events\\SFX\\Breakables\\Play_sfx_floor_break",
       "GUID": "{AA316F07-7AE2-4DD2-9B4B-551959025890}",
-      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3416377196",
+      "Name": "Play_sfx_item_collect",
+      "ObjectPath": "\\Events\\SFX\\Interactions\\Play_sfx_item_collect",
+      "GUID": "{0286BC38-CF82-4BFD-B03E-0353B0F6DFF5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "526429163",
+      "Name": "Play_sfx_mech_arm_grab_pav",
+      "ObjectPath": "\\Events\\SFX\\Threats\\MechArm\\Play_sfx_mech_arm_grab_pav",
+      "GUID": "{8A214339-FC89-484B-A7E5-259F8C400E9A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4213601564",
+      "Name": "Play_sfx_mech_arm_shake_lp",
+      "ObjectPath": "\\Events\\SFX\\Threats\\MechArm\\Play_sfx_mech_arm_shake_lp",
+      "GUID": "{BB949554-695A-436A-9C0C-FEC9DDE92926}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "634431739",
+      "Name": "Play_sfx_mech_arm_shutdown",
+      "ObjectPath": "\\Events\\SFX\\Threats\\MechArm\\Play_sfx_mech_arm_shutdown",
+      "GUID": "{78707BDA-1758-4F53-B61B-595C3E979C05}",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -238,9 +325,9 @@
       "DurationMax": "0"
      },
      {
-      "Id": "2491441227",
-      "Name": "Stop_sfx_box_pull",
-      "ObjectPath": "\\Events\\SFX\\Box\\Stop_sfx_box_pull",
+      "Id": "3706296610",
+      "Name": "Stop_sfx_box_pull_lp",
+      "ObjectPath": "\\Events\\SFX\\Interactions\\Box\\Stop_sfx_box_pull_lp",
       "GUID": "{0A77E96B-3347-45CE-9A95-8A65F1BD1D25}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -248,10 +335,30 @@
       "DurationMax": "0"
      },
      {
-      "Id": "2038445518",
-      "Name": "Stop_sfx_box_push",
-      "ObjectPath": "\\Events\\SFX\\Box\\Stop_sfx_box_push",
+      "Id": "4005558697",
+      "Name": "Stop_sfx_box_push_lp",
+      "ObjectPath": "\\Events\\SFX\\Interactions\\Box\\Stop_sfx_box_push_lp",
       "GUID": "{CDF8F6D0-F572-4405-A649-DE03902D6B22}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2937358414",
+      "Name": "Stop_sfx_elec_lp",
+      "ObjectPath": "\\Events\\SFX\\Threats\\Electricity\\Stop_sfx_elec_lp",
+      "GUID": "{33811F51-5193-4DC5-B686-983BE993706F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "473043494",
+      "Name": "Stop_sfx_mech_arm_shake_lp",
+      "ObjectPath": "\\Events\\SFX\\Threats\\MechArm\\Stop_sfx_mech_arm_shake_lp",
+      "GUID": "{ADE2F38C-245F-40D7-BF33-1A3539EA4074}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -302,6 +409,6 @@
     ]
    }
   ],
-  "FileHash": "{6DE975FB-8083-8E33-46EF-AC2E3277359B}"
+  "FileHash": "{DE67C21E-C21E-6E6B-3580-6BB88372EFBD}"
  }
 }

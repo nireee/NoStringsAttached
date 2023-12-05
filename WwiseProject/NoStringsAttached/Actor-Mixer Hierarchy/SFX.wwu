@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="SFX" ID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}" PersistMode="Standalone"/>
+		<WorkUnit Name="SFX" ID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Breakables" ID="{CAF2779A-DFB0-4BE5-B830-6A2F20A6E32F}" PersistMode="Reference"/>
+				<WorkUnit Name="Interactions" ID="{94019D19-C7C5-4F4C-8E89-959BC0FCC781}" PersistMode="Reference"/>
+				<WorkUnit Name="Threats" ID="{658790C8-4366-4634-8AE6-5F441EFD2680}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

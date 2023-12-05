@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}" SchemaVersion="119" RootDocumentID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}" ParentDocumentID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}">
+<WwiseDocument Type="WorkUnit" ID="{94019D19-C7C5-4F4C-8E89-959BC0FCC781}" SchemaVersion="119" RootDocumentID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}" ParentDocumentID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}">
 	<AudioObjects>
-		<WorkUnit Name="PavoMovement" ID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}" OwnerID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}" PersistMode="Nested">
+		<WorkUnit Name="Interactions" ID="{94019D19-C7C5-4F4C-8E89-959BC0FCC781}" OwnerID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}" PersistMode="Nested">
 			<ChildrenList>
-				<Sound Name="char_pav_climb_end" ID="{11B9533B-01DC-4DB0-9BC5-EECCC0250F44}" ShortID="494429601">
+				<Sound Name="sfx_door_fall" ID="{C26E4F96-50EE-406F-A4B4-596C2BB9E987}" ShortID="987633727">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 				</Sound>
-				<RandomSequenceContainer Name="char_pav_climb_left" ID="{A29E7124-7E9F-4DAA-AB9B-0101C0C374B7}" ShortID="200824890">
+				<Sound Name="sfx_box_pull_lp" ID="{1D1019A5-F208-497D-A41C-EDFEBF66F3D3}" ShortID="113848261">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
@@ -22,8 +22,8 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
 						</Reference>
 					</ReferenceList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="char_pav_climb_right" ID="{CE924A5C-060B-4633-8E67-40FE60192680}" ShortID="329045137">
+				</Sound>
+				<Sound Name="sfx_box_push_lp" ID="{477A8132-73F6-44C9-A194-1941C8F7D633}" ShortID="427804854">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
@@ -32,8 +32,8 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
 						</Reference>
 					</ReferenceList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="char_pav_climb_down" ID="{D4F32E81-90BA-4321-A79E-E745B69B5A9A}" ShortID="294887871">
+				</Sound>
+				<Sound Name="sfx_item_collect" ID="{602E26C6-BE7A-4542-8550-2D982BABC9C5}" ShortID="249284081">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
@@ -42,8 +42,8 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
 						</Reference>
 					</ReferenceList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="char_pav_jump" ID="{3BC194A0-8215-43E9-8ADC-A7C839D39841}" ShortID="673207981">
+				</Sound>
+				<Sound Name="sfx_box_scare_seq" ID="{A6FB3827-E6EA-4E4C-B6A4-8058D7C08474}" ShortID="317419802">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
@@ -52,17 +52,7 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
 						</Reference>
 					</ReferenceList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="char_pav_land" ID="{A2D70517-4A42-408C-AF5C-30A6279292BD}" ShortID="765767671">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
-						</Reference>
-					</ReferenceList>
-				</RandomSequenceContainer>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

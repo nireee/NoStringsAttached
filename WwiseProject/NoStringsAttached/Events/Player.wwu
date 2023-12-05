@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{7C7352BC-75EE-41DE-95E4-1114771136B7}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Player" ID="{7C7352BC-75EE-41DE-95E4-1114771136B7}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Pavo" ID="{3559BF60-D011-4DB0-B20A-DD90E4D07459}" ShortID="59597947">
 					<ChildrenList>
@@ -102,7 +106,7 @@
 								<Action Name="" ID="{E3259CDB-E359-4CA0-ADCA-435F887938CF}" ShortID="402459700">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="char_pav_swing_fwd" ID="{8C62BC6B-0E3F-45EC-BEFE-7F2342FF47BD}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+											<ObjectRef Name="char_pav_swing_fwd" ID="{8C62BC6B-0E3F-45EC-BEFE-7F2342FF47BD}" WorkUnitID="{1745E068-DC0D-43A9-896F-A73EBA7CD3D9}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -113,7 +117,7 @@
 								<Action Name="" ID="{17A242DC-BB22-4D5E-ABE5-2EF39DD20DCE}" ShortID="616028710">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="char_pav_swing_bwd" ID="{3BFB14D5-8376-4E40-8488-043DFB36BD3A}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+											<ObjectRef Name="char_pav_swing_bwd" ID="{3BFB14D5-8376-4E40-8488-043DFB36BD3A}" WorkUnitID="{1745E068-DC0D-43A9-896F-A73EBA7CD3D9}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -124,7 +128,7 @@
 								<Action Name="" ID="{7FD2A7B3-2DB5-4130-BEF0-D88B2B356E0B}" ShortID="636569369">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="char_pav_zipline" ID="{47525222-6FE7-4E6F-AC80-CB6E4A2468D9}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+											<ObjectRef Name="char_pav_zipline" ID="{47525222-6FE7-4E6F-AC80-CB6E4A2468D9}" WorkUnitID="{1745E068-DC0D-43A9-896F-A73EBA7CD3D9}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -138,7 +142,29 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="char_pav_zipline" ID="{47525222-6FE7-4E6F-AC80-CB6E4A2468D9}" WorkUnitID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}"/>
+											<ObjectRef Name="char_pav_zipline" ID="{47525222-6FE7-4E6F-AC80-CB6E4A2468D9}" WorkUnitID="{1745E068-DC0D-43A9-896F-A73EBA7CD3D9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_seesaw_launch" ID="{6EB428E9-974E-4938-A2D3-A80E9330161D}">
+							<ChildrenList>
+								<Action Name="" ID="{1200CC1D-14B5-43DC-9D69-EF45398D25F7}" ShortID="484552094">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_seesaw_launch" ID="{B48AB64A-ACC0-479E-BF90-C1FC4BA2BC5C}" WorkUnitID="{1745E068-DC0D-43A9-896F-A73EBA7CD3D9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_pav_seesaw_fail" ID="{2B0475F8-2A35-4DE7-A9C6-1F36D2FEA5B9}">
+							<ChildrenList>
+								<Action Name="" ID="{B5E2A689-6471-44F7-8F1D-21D4149E12F6}" ShortID="578512769">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pav_seesaw_fail" ID="{31FF0D25-7F9F-4E63-8426-05F1E3552604}" WorkUnitID="{1745E068-DC0D-43A9-896F-A73EBA7CD3D9}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

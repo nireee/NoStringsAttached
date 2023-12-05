@@ -3,9 +3,165 @@
 	<Events>
 		<WorkUnit Name="NPC" ID="{C4C10828-504A-4C7F-B737-96D08D653881}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Puppet Master" ID="{08749590-C510-43CF-801F-6A031779753F}" ShortID="76141182">
+				<Folder Name="PuppetMaster" ID="{08749590-C510-43CF-801F-6A031779753F}" ShortID="76141182">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Event Name="char_pm_fs" ID="{7AA1FEC4-AB3A-4359-9B2A-926A963673AF}"/>
+						<Event Name="Play_char_pm_fs" ID="{7AA1FEC4-AB3A-4359-9B2A-926A963673AF}">
+							<ChildrenList>
+								<Action Name="" ID="{13011EC1-9C4A-41AF-B086-E0520AD802F3}" ShortID="66422969">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pm_fs" ID="{40E3B3FA-B401-41CD-9E7F-C7DDB1BF6630}" WorkUnitID="{A33D5CC5-6413-40BC-ADBF-EC96469F30D9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="AnimSequence" ID="{A452B1C4-4181-4DE1-A518-22759745B686}" ShortID="1240901">
+							<ChildrenList>
+								<Event Name="Play_anim_pm_leave_tent" ID="{6F260DE5-47D3-42F0-84BF-A258814387BD}"/>
+								<Event Name="Play_anim_pm_enter" ID="{1E7F0D79-1A46-422E-8AD8-3FEC2FB2061E}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Vox" ID="{7044AD04-6A15-4D25-9D09-2CFD982C557D}" ShortID="234237378">
+							<ChildrenList>
+								<Event Name="Play_char_pm_vox_sigh" ID="{EA01D3C8-586F-4EF0-9147-7F51716DE6E7}">
+									<ChildrenList>
+										<Action Name="" ID="{F9CC1D8C-DA1A-4E98-B7DD-6405C9B839BC}" ShortID="211302469">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="char_pm_vox_sigh" ID="{912531A7-BCD7-4FCA-98B2-8EA7CD34FE33}" WorkUnitID="{A33D5CC5-6413-40BC-ADBF-EC96469F30D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_char_pm_vox_surprise" ID="{6E489A07-98B5-4C20-9630-C97BBA770A5D}">
+									<ChildrenList>
+										<Action Name="" ID="{8E2AEEBF-6401-4150-9D08-FED0D7A67204}" ShortID="547264061">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="char_pm_vox_surprise" ID="{BB7D3029-64D4-434F-86C6-57B03EA7D326}" WorkUnitID="{A33D5CC5-6413-40BC-ADBF-EC96469F30D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_char_pm_breathe_lp" ID="{8263E8C7-7AC4-45D8-ABBC-C65550DE237E}">
+									<ChildrenList>
+										<Action Name="" ID="{72DA3D3D-EB9D-4E9F-B891-9992B97AD266}" ShortID="37370560">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="char_pm_breathe_lp" ID="{A6E75939-CBE9-438A-9F7A-B80C1E7AA678}" WorkUnitID="{A33D5CC5-6413-40BC-ADBF-EC96469F30D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_char_pm_breathe_lp" ID="{A0EF5EB5-BF90-442D-B9FA-FC336574FFB2}">
+									<ChildrenList>
+										<Action Name="" ID="{63AB5548-442E-4BA5-A7B8-3DC294515D4B}" ShortID="168236216">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="char_pm_breathe_lp" ID="{A6E75939-CBE9-438A-9F7A-B80C1E7AA678}" WorkUnitID="{A33D5CC5-6413-40BC-ADBF-EC96469F30D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="BlueLight" ID="{5F8AA808-FAAE-4D69-9ED3-96FC2564A7A4}" ShortID="907850742">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_char_bl_mvmt_start" ID="{9E0C396C-5090-410C-BF17-43D4BD6A7AB9}">
+							<ChildrenList>
+								<Action Name="" ID="{7427FB2A-DAC6-4DBE-8549-B9C47BD6E2D0}" ShortID="916592851">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_bl_mvmt_start" ID="{FFBBBD1F-8CE2-4A9A-9A69-C4AB9D2E69C4}" WorkUnitID="{24142CB3-73B6-448B-B878-85BFDDEBE687}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_bl_mvmt_lp" ID="{4D47FE89-87E5-4C80-BFB9-774B90F5CD50}">
+							<ChildrenList>
+								<Action Name="" ID="{9752E6AF-F605-4702-A765-CE36EA350210}" ShortID="1035324114">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_bl_mvmt_lp" ID="{933C002A-8632-417D-83EF-65F245962820}" WorkUnitID="{24142CB3-73B6-448B-B878-85BFDDEBE687}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_char_bl_mvmt_lp" ID="{99AE9A1F-3D49-429D-B6E0-F604683C4BDA}">
+							<ChildrenList>
+								<Action Name="" ID="{93B03479-9AE8-42CD-BE4B-D42F2EBDC080}" ShortID="803996228">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_bl_mvmt_lp" ID="{933C002A-8632-417D-83EF-65F245962820}" WorkUnitID="{24142CB3-73B6-448B-B878-85BFDDEBE687}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_bl_chime" ID="{4B790F44-8625-4D5F-B161-D6777744B539}">
+							<ChildrenList>
+								<Action Name="" ID="{5E613BBE-B051-46D5-BEBF-4CBDD379DE51}" ShortID="1031375477">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_bl_chime" ID="{2426A90D-6781-4F31-82A8-C84CEB160C29}" WorkUnitID="{24142CB3-73B6-448B-B878-85BFDDEBE687}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_char_bl_interact" ID="{CD4F4C1B-3D16-46B5-BF26-5B363CFC4F9E}">
+							<ChildrenList>
+								<Action Name="" ID="{FFE45597-D5EC-4ED8-B1AF-CDCD89FE8FED}" ShortID="928771700">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_bl_interact" ID="{B99F1F1C-C6A1-45BB-8286-9BF6512DD383}" WorkUnitID="{24142CB3-73B6-448B-B878-85BFDDEBE687}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Puppets" ID="{FD18AF5C-C8CE-48D8-B9DB-12ABB7126A9F}" ShortID="1071482818">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_char_pup_drop" ID="{C688E183-F71B-4F3A-A8EB-6E74C0DBB061}">
+							<ChildrenList>
+								<Action Name="" ID="{D5E34969-77FA-4A4A-AE3E-5F449504745B}" ShortID="47419388">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="char_pup_drop" ID="{329C5A5E-FE53-49DA-8157-23FBB681E68D}" WorkUnitID="{322E69CE-41E3-405B-949A-3A65C1517D36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

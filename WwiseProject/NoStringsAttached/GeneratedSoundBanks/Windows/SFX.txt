@@ -1,28 +1,40 @@
 Event	ID	Name			Wwise Object Path	Notes
+	118894359	Play_sfx_box_push_lp			\SFX\Interactions\Box\Play_sfx_box_push_lp	
 	161393517	Play_TestBeep_lp_3D			\TestEvents\Play_TestBeep_lp_3D	
+	185758190	Play_cine_lvl_1_end_scenery			\Cinematics\Play_cine_lvl_1_end_scenery	
+	204940112	Play_sfx_elec_lp			\SFX\Threats\Electricity\Play_sfx_elec_lp	
+	473043494	Stop_sfx_mech_arm_shake_lp			\SFX\Threats\MechArm\Stop_sfx_mech_arm_shake_lp	
+	526429163	Play_sfx_mech_arm_grab_pav			\SFX\Threats\MechArm\Play_sfx_mech_arm_grab_pav	
 	609567479	Play_char_pav_swing_fwd			\Player\Pavo\Play_char_pav_swing_fwd	
 	610258827	Play_char_pav_swing_bwd			\Player\Pavo\Play_char_pav_swing_bwd	
-	767421973	Play_sfx_box_pull			\SFX\Box\Play_sfx_box_pull	
+	634431739	Play_sfx_mech_arm_shutdown			\SFX\Threats\MechArm\Play_sfx_mech_arm_shutdown	
+	638004907	Play_sfx_elec_spark			\SFX\Threats\Electricity\Play_sfx_elec_spark	
+	771049572	Play_char_pav_seesaw_fail			\Player\Pavo\Play_char_pav_seesaw_fail	
 	821340123	Play_char_pav_climb_right			\Player\Pavo\Play_char_pav_climb_right	
 	858964037	Play_TestBeep_lp			\TestEvents\Play_TestBeep_lp	
-	1186862524	Play_sfx_box_push			\SFX\Box\Play_sfx_box_push	
+	901556868	Play_sfx_box_scare_seq			\SFX\Interactions\Play_sfx_box_scare_seq	
 	1216802322	Play_char_pav_land			\Player\Pavo\Play_char_pav_land	
-	1312371701	Play_sfx_door_open			\SFX\Door\Play_sfx_door_open	
+	1331585006	Play_sfx_door_fall			\SFX\Interactions\Play_sfx_door_fall	
 	1670385919	Stop_TestBeep_lp_3D			\TestEvents\Stop_TestBeep_lp_3D	
 	1681067324	Play_TestBeep_3D			\TestEvents\Play_TestBeep_3D	
 	1761160092	Play_char_pav_climb_left			\Player\Pavo\Play_char_pav_climb_left	
 	1955951874	Play_TestBeep			\TestEvents\Play_TestBeep	
-	2038445518	Stop_sfx_box_push			\SFX\Box\Stop_sfx_box_push	
+	2208038884	Play_sfx_box_pull_lp			\SFX\Interactions\Box\Play_sfx_box_pull_lp	
 	2444110501	Play_char_pav_cloth_wood			\Player\Pavo\Play_char_pav_cloth_wood	
-	2491441227	Stop_sfx_box_pull			\SFX\Box\Stop_sfx_box_pull	
 	2633539370	Play_char_pav_climb_end			\Player\Pavo\Play_char_pav_climb_end	
 	2645599981	Play_char_pav_jump			\Player\Pavo\Play_char_pav_jump	
-	2697152436	Play_sfx_floor_break			\SFX\Floor\Play_sfx_floor_break	
+	2697152436	Play_sfx_floor_break			\SFX\Breakables\Play_sfx_floor_break	
+	2937358414	Stop_sfx_elec_lp			\SFX\Threats\Electricity\Stop_sfx_elec_lp	
 	2962656628	Play_char_pav_fs			\Player\Pavo\Play_char_pav_fs	
 	3106700779	Stop_TestBeep_lp			\TestEvents\Stop_TestBeep_lp	
 	3231647187	Play_char_pav_climb_down			\Player\Pavo\Play_char_pav_climb_down	
 	3386643994	Stop_char_pav_zipline			\Player\Pavo\Stop_char_pav_zipline	
+	3416377196	Play_sfx_item_collect			\SFX\Interactions\Play_sfx_item_collect	
+	3636159081	Play_char_pav_seesaw_launch			\Player\Pavo\Play_char_pav_seesaw_launch	
 	3663494216	Play_char_pav_zipline			\Player\Pavo\Play_char_pav_zipline	
+	3706296610	Stop_sfx_box_pull_lp			\SFX\Interactions\Box\Stop_sfx_box_pull_lp	
+	4005558697	Stop_sfx_box_push_lp			\SFX\Interactions\Box\Stop_sfx_box_push_lp	
+	4213601564	Play_sfx_mech_arm_shake_lp			\SFX\Threats\MechArm\Play_sfx_mech_arm_shake_lp	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3072116243	GroundMaterial			\Default Work Unit\GroundMaterial	

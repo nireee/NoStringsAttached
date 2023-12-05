@@ -2,10 +2,15 @@
 <WwiseDocument Type="WorkUnit" ID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="Player" ID="{3FD57497-2386-41DC-8F68-DD66FFAC14D5}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="PavoFootsteps" ID="{DC46BF3D-AE78-4282-9279-B91F8E3D7256}" PersistMode="Reference"/>
 				<WorkUnit Name="PavoCloth" ID="{5126EE47-53D5-46F8-8C5C-9F837973CAC0}" PersistMode="Reference"/>
 				<WorkUnit Name="PavoMovement" ID="{0BEABB55-4A44-475C-B4B2-FCAB6B171B68}" PersistMode="Reference"/>
+				<WorkUnit Name="PavoMechanics" ID="{1745E068-DC0D-43A9-896F-A73EBA7CD3D9}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

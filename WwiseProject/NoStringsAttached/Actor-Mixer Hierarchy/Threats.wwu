@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{658790C8-4366-4634-8AE6-5F441EFD2680}" SchemaVersion="119" RootDocumentID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}" ParentDocumentID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}">
+	<AudioObjects>
+		<WorkUnit Name="Threats" ID="{658790C8-4366-4634-8AE6-5F441EFD2680}" OwnerID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="MechArm" ID="{447FD1C7-93FD-4B40-AFF0-ACB742375A6D}" ShortID="265022097">
+					<ChildrenList>
+						<Sound Name="sfx_mech_arm_shake_lp" ID="{7C31D787-C9FA-44DF-B833-525E929DF57C}" ShortID="932458125">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="sfx_mech_arm_shutdown" ID="{4EEA67F5-62A3-4AD3-BA36-A12A2DF3AF4F}" ShortID="1043378174">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="sfx_mech_arm_grab_pav" ID="{5DB4F941-5947-4080-99E0-ABBB50D34AB9}" ShortID="990456891">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Electricity" ID="{67D12B6A-4E08-48A0-BD7C-C8E6226E9313}" ShortID="311760702">
+					<ChildrenList>
+						<Sound Name="sfx_elec_lp" ID="{01D2EE43-B737-4417-837A-D5C93FAF79B6}" ShortID="442503056">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<RandomSequenceContainer Name="sfx_elec_spark" ID="{FA0D6D21-7693-431B-AA10-6A51B57C8222}" ShortID="199940727">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

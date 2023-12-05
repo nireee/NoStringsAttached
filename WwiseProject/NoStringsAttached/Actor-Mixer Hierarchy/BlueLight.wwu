@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{24142CB3-73B6-448B-B878-85BFDDEBE687}" SchemaVersion="119" RootDocumentID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" ParentDocumentID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}">
+	<AudioObjects>
+		<WorkUnit Name="BlueLight" ID="{24142CB3-73B6-448B-B878-85BFDDEBE687}" OwnerID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="char_bl_chime" ID="{2426A90D-6781-4F31-82A8-C84CEB160C29}" ShortID="242102724">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+				<Sound Name="char_bl_mvmt_lp" ID="{933C002A-8632-417D-83EF-65F245962820}" ShortID="406851052">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+				<Sound Name="char_bl_mvmt_start" ID="{FFBBBD1F-8CE2-4A9A-9A69-C4AB9D2E69C4}" ShortID="386208211">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+				<Sound Name="char_bl_interact" ID="{B99F1F1C-C6A1-45BB-8286-9BF6512DD383}" ShortID="730691410">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{92185988-8770-4475-B332-3C6F7E5C66FE}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Ambience" ID="{92185988-8770-4475-B332-3C6F7E5C66FE}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Emitter" ID="{DD618C05-837E-4A4F-9521-0D01821B6A9A}" ShortID="936770782"/>
 				<Folder Name="Event" ID="{4737F699-C2D2-4572-AA04-A7112120F4E8}" ShortID="610825736"/>
