@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="NPC" ID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" PersistMode="Standalone"/>
+		<WorkUnit Name="NPC" ID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="BlueLight" ID="{24142CB3-73B6-448B-B878-85BFDDEBE687}" PersistMode="Reference"/>
+				<WorkUnit Name="PuppetMaster" ID="{A33D5CC5-6413-40BC-ADBF-EC96469F30D9}" PersistMode="Reference"/>
+				<WorkUnit Name="Puppets" ID="{322E69CE-41E3-405B-949A-3A65C1517D36}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

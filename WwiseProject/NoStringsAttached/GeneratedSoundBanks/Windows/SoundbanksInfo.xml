@@ -9,12 +9,15 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" GUID="{49C65FAC-D0AB-4C06-B60E-1B4EB4459EDB}" Language="SFX" Hash="{44AAEB68-B80A-919B-C73D-06A673332B00}">
+		<SoundBank Id="85412153" Type="User" GUID="{49C65FAC-D0AB-4C06-B60E-1B4EB4459EDB}" Language="SFX" Hash="{3665FC13-C2EB-9985-12EC-3C44760F55CB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
+			<Events>
+				<Event Id="747799667" Name="Play_AmbienceBed" ObjectPath="\Events\Ambience\Play_AmbienceBed" GUID="{A0569318-38F1-49E9-87B7-DCE88B5E09FE}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" GUID="{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}" Language="SFX" Hash="{9C32EB36-66D9-FF8C-9AD8-3910CF7D6931}">
+		<SoundBank Id="393239870" Type="User" GUID="{72AF24CB-18CF-494C-B3A3-B99DC2B210D8}" Language="SFX" Hash="{07B4E178-78B0-AD83-71C4-5E114B191684}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -39,13 +42,23 @@
 				</Event>
 				<Event Id="2645599981" Name="Play_char_pav_jump" ObjectPath="\Events\Player\Pavo\Play_char_pav_jump" GUID="{F7F302D9-E762-47AE-BE6A-D775B039213E}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1216802322" Name="Play_char_pav_land" ObjectPath="\Events\Player\Pavo\Play_char_pav_land" GUID="{7A09B695-770E-4B78-868B-AE7A1BB029E0}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="771049572" Name="Play_char_pav_seesaw_fail" ObjectPath="\Events\Player\Pavo\Play_char_pav_seesaw_fail" GUID="{2B0475F8-2A35-4DE7-A9C6-1F36D2FEA5B9}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3636159081" Name="Play_char_pav_seesaw_launch" ObjectPath="\Events\Player\Pavo\Play_char_pav_seesaw_launch" GUID="{6EB428E9-974E-4938-A2D3-A80E9330161D}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="610258827" Name="Play_char_pav_swing_bwd" ObjectPath="\Events\Player\Pavo\Play_char_pav_swing_bwd" GUID="{073E8F2F-981D-4CC9-9167-E3DEC351D041}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="609567479" Name="Play_char_pav_swing_fwd" ObjectPath="\Events\Player\Pavo\Play_char_pav_swing_fwd" GUID="{5CAEFB6A-4933-4738-AF86-F58052CC873E}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3663494216" Name="Play_char_pav_zipline" ObjectPath="\Events\Player\Pavo\Play_char_pav_zipline" GUID="{A55FFAE5-EAD6-47B8-A19A-BC28FD3908BC}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="767421973" Name="Play_sfx_box_pull" ObjectPath="\Events\SFX\Box\Play_sfx_box_pull" GUID="{B494FF4E-4D34-4C54-80BC-CC39D1016A61}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1186862524" Name="Play_sfx_box_push" ObjectPath="\Events\SFX\Box\Play_sfx_box_push" GUID="{FFAD90CB-0A78-4966-A5CB-8F750EB416EB}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1312371701" Name="Play_sfx_door_open" ObjectPath="\Events\SFX\Door\Play_sfx_door_open" GUID="{99CFBA2F-33A5-4FF5-B3E6-4F52EDFB5DF2}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2697152436" Name="Play_sfx_floor_break" ObjectPath="\Events\SFX\Floor\Play_sfx_floor_break" GUID="{AA316F07-7AE2-4DD2-9B4B-551959025890}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="185758190" Name="Play_cine_lvl_1_end_scenery" ObjectPath="\Events\Cinematics\Play_cine_lvl_1_end_scenery" GUID="{D16A47A5-26B3-43F3-8293-DF1CBE001CE9}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2208038884" Name="Play_sfx_box_pull_lp" ObjectPath="\Events\SFX\Interactions\Box\Play_sfx_box_pull_lp" GUID="{B494FF4E-4D34-4C54-80BC-CC39D1016A61}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="118894359" Name="Play_sfx_box_push_lp" ObjectPath="\Events\SFX\Interactions\Box\Play_sfx_box_push_lp" GUID="{FFAD90CB-0A78-4966-A5CB-8F750EB416EB}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="901556868" Name="Play_sfx_box_scare_seq" ObjectPath="\Events\SFX\Interactions\Play_sfx_box_scare_seq" GUID="{793C829D-7BE7-4DEF-93B8-FEBE233E1254}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1331585006" Name="Play_sfx_door_fall" ObjectPath="\Events\SFX\Interactions\Play_sfx_door_fall" GUID="{99CFBA2F-33A5-4FF5-B3E6-4F52EDFB5DF2}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="204940112" Name="Play_sfx_elec_lp" ObjectPath="\Events\SFX\Threats\Electricity\Play_sfx_elec_lp" GUID="{FD8C33F5-7273-4261-8AA0-0309698FB4F9}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="638004907" Name="Play_sfx_elec_spark" ObjectPath="\Events\SFX\Threats\Electricity\Play_sfx_elec_spark" GUID="{08FA8B9E-CCF2-45CC-A92E-DC1C55CB572B}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2697152436" Name="Play_sfx_floor_break" ObjectPath="\Events\SFX\Breakables\Play_sfx_floor_break" GUID="{AA316F07-7AE2-4DD2-9B4B-551959025890}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3416377196" Name="Play_sfx_item_collect" ObjectPath="\Events\SFX\Interactions\Play_sfx_item_collect" GUID="{0286BC38-CF82-4BFD-B03E-0353B0F6DFF5}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="526429163" Name="Play_sfx_mech_arm_grab_pav" ObjectPath="\Events\SFX\Threats\MechArm\Play_sfx_mech_arm_grab_pav" GUID="{8A214339-FC89-484B-A7E5-259F8C400E9A}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4213601564" Name="Play_sfx_mech_arm_shake_lp" ObjectPath="\Events\SFX\Threats\MechArm\Play_sfx_mech_arm_shake_lp" GUID="{BB949554-695A-436A-9C0C-FEC9DDE92926}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="634431739" Name="Play_sfx_mech_arm_shutdown" ObjectPath="\Events\SFX\Threats\MechArm\Play_sfx_mech_arm_shutdown" GUID="{78707BDA-1758-4F53-B61B-595C3E979C05}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1955951874" Name="Play_TestBeep" ObjectPath="\Events\TestEvents\Play_TestBeep" GUID="{5D9EF484-D0EA-4CEC-99C7-B49A864C4C76}" DurationType="OneShot" DurationMin="0.20864584" DurationMax="0.20864584">
 					<MediaRefs>
 						<MediaRef Id="407628506"/>
@@ -67,8 +80,10 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="3386643994" Name="Stop_char_pav_zipline" ObjectPath="\Events\Player\Pavo\Stop_char_pav_zipline" GUID="{F5EE2773-9EF2-4BBE-97A8-95EA24C2CF4D}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2491441227" Name="Stop_sfx_box_pull" ObjectPath="\Events\SFX\Box\Stop_sfx_box_pull" GUID="{0A77E96B-3347-45CE-9A95-8A65F1BD1D25}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2038445518" Name="Stop_sfx_box_push" ObjectPath="\Events\SFX\Box\Stop_sfx_box_push" GUID="{CDF8F6D0-F572-4405-A649-DE03902D6B22}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3706296610" Name="Stop_sfx_box_pull_lp" ObjectPath="\Events\SFX\Interactions\Box\Stop_sfx_box_pull_lp" GUID="{0A77E96B-3347-45CE-9A95-8A65F1BD1D25}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4005558697" Name="Stop_sfx_box_push_lp" ObjectPath="\Events\SFX\Interactions\Box\Stop_sfx_box_push_lp" GUID="{CDF8F6D0-F572-4405-A649-DE03902D6B22}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2937358414" Name="Stop_sfx_elec_lp" ObjectPath="\Events\SFX\Threats\Electricity\Stop_sfx_elec_lp" GUID="{33811F51-5193-4DC5-B686-983BE993706F}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="473043494" Name="Stop_sfx_mech_arm_shake_lp" ObjectPath="\Events\SFX\Threats\MechArm\Stop_sfx_mech_arm_shake_lp" GUID="{ADE2F38C-245F-40D7-BF33-1A3539EA4074}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3106700779" Name="Stop_TestBeep_lp" ObjectPath="\Events\TestEvents\Stop_TestBeep_lp" GUID="{1A141C72-5E9C-4F7F-AEDC-DA6CD3F50CE0}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1670385919" Name="Stop_TestBeep_lp_3D" ObjectPath="\Events\TestEvents\Stop_TestBeep_lp_3D" GUID="{7F3CBD8F-DDE6-47B3-BE3D-A168BF324D57}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -341,5 +356,5 @@
 			<Path>Music.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AF744E51-5C12-4BE8-5948-AAD7315F2B35}</FileHash>
+	<FileHash>{3DB51A29-91B4-BF94-C9E9-85427BCF5AED}</FileHash>
 </SoundBanksInfo>

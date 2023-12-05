@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{548FCB42-4A14-4A49-AE0E-59563BD1E492}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Cinematics" ID="{548FCB42-4A14-4A49-AE0E-59563BD1E492}" PersistMode="Standalone"/>
+		<WorkUnit Name="Cinematics" ID="{548FCB42-4A14-4A49-AE0E-59563BD1E492}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_cine_lvl_1_end_scenery" ID="{D16A47A5-26B3-43F3-8293-DF1CBE001CE9}">
+					<ChildrenList>
+						<Action Name="" ID="{BAEB66A8-949E-4DC4-9DC1-98038BD5F758}" ShortID="1016312822">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cine_lvl_1_end_scenery" ID="{051F9658-51BD-432D-A675-9710E3193345}" WorkUnitID="{F63851A7-E893-49D0-9BF2-E83A5A8C4DE2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

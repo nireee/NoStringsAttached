@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F63851A7-E893-49D0-9BF2-E83A5A8C4DE2}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{322E69CE-41E3-405B-949A-3A65C1517D36}" SchemaVersion="119" RootDocumentID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" ParentDocumentID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}">
 	<AudioObjects>
-		<WorkUnit Name="Cinematics" ID="{F63851A7-E893-49D0-9BF2-E83A5A8C4DE2}" PersistMode="Standalone">
+		<WorkUnit Name="Puppets" ID="{322E69CE-41E3-405B-949A-3A65C1517D36}" OwnerID="{55F98AD4-C6AA-4462-A011-EA56C71F4B6D}" PersistMode="Nested">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="Color" Type="int16" Value="20"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Sound Name="cine_lvl_1_end_scenery" ID="{051F9658-51BD-432D-A675-9710E3193345}" ShortID="641857292">
+				<RandomSequenceContainer Name="char_pup_drop" ID="{329C5A5E-FE53-49DA-8157-23FBB681E68D}" ShortID="245087723">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
@@ -16,7 +16,7 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D34A581B-995B-4A5C-BE5D-7D8606FF942B}"/>
 						</Reference>
 					</ReferenceList>
-				</Sound>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

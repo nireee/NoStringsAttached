@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F63851A7-E893-49D0-9BF2-E83A5A8C4DE2}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{CAF2779A-DFB0-4BE5-B830-6A2F20A6E32F}" SchemaVersion="119" RootDocumentID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}" ParentDocumentID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}">
 	<AudioObjects>
-		<WorkUnit Name="Cinematics" ID="{F63851A7-E893-49D0-9BF2-E83A5A8C4DE2}" PersistMode="Standalone">
-			<PropertyList>
-				<Property Name="Color" Type="int16" Value="4"/>
-				<Property Name="OverrideColor" Type="bool" Value="True"/>
-			</PropertyList>
+		<WorkUnit Name="Breakables" ID="{CAF2779A-DFB0-4BE5-B830-6A2F20A6E32F}" OwnerID="{EE20BD1C-0ADF-4C83-B114-63E6E2814BB5}" PersistMode="Nested">
 			<ChildrenList>
-				<Sound Name="cine_lvl_1_end_scenery" ID="{051F9658-51BD-432D-A675-9710E3193345}" ShortID="641857292">
+				<Sound Name="sfx_floor_break" ID="{856AA4E4-29A1-4E65-9FFB-5F1777DBFFD2}" ShortID="638004299">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C819AEDD-6400-4464-BC3E-3B9426A1D495}"/>
